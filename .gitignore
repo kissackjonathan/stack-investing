@@ -1,0 +1,15 @@
+# Player data and secrets never go to GitHub
+users/
+progress.json
+.streamlit/secrets.toml
+*.json.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Old version kept locally
+app_original.py
+.DS_Store

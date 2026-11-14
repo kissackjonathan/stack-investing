@@ -1,0 +1,2826 @@
+{
+  "version": 2,
+  "units": [
+    {
+      "title": "Foundations",
+      "color": "#7df59b",
+      "description": "What investing is, how risk works and why goals come first.",
+      "levels": [
+        {
+          "name": "Investing basics",
+          "subtitle": "Understand what investing means",
+          "minutes": 5,
+          "xp": 50,
+          "cards": [
+            {
+              "title": "What is investing?",
+              "body": "Investing means putting money into an asset with the hope that it may grow in value or generate income over time. Returns are never guaranteed."
+            },
+            {
+              "title": "Saving vs investing",
+              "body": "Savings are usually easier to access and tend to have lower risk. Investments can rise or fall in value, so the value you get back may be less than you put in."
+            },
+            {
+              "title": "Start with the goal",
+              "body": "A useful first question is: what is the money for, and when might it be needed? Time horizon and ability to accept losses matter."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Marc keeps 20'000 CHF in a savings account earning 0.5% a year while inflation runs at 2%. What is happening to his money in real terms?",
+              "options": [
+                "It is growing, just slowly",
+                "It is safe from any loss because the balance never falls",
+                "Nothing changes as long as he doesn't withdraw it",
+                "It is slowly losing purchasing power"
+              ],
+              "answer": 3,
+              "explanation": "His balance rises 0.5% a year but prices rise 2%, so each franc buys a little less. A balance that never falls in francs can still lose value in what it can buy."
+            },
+            {
+              "question": "Which of these statements is FALSE?",
+              "options": [
+                "Some investments pay income, like dividends, without being sold",
+                "Saving and investing can both have a place in the same plan",
+                "A share that rose every year for 10 years is unlikely to fall next year",
+                "Even well-known investments can lose a large part of their value"
+              ],
+              "answer": 2,
+              "explanation": "A long rising streak says nothing reliable about next year: past performance doesn't guarantee future results. The other three statements are true."
+            },
+            {
+              "question": "You invest 1'000 CHF at 7% a year and reinvest all returns for 10 years. Roughly how much do you end up with?",
+              "options": [
+                "About 1'700 CHF",
+                "About 2'500 CHF",
+                "About 1'070 CHF",
+                "About 1'970 CHF"
+              ],
+              "answer": 3,
+              "explanation": "1'000 × 1.07¹⁰ ≈ 1'967 CHF, because returns themselves earn returns. 1'700 CHF is simple interest (7% × 10 years), which ignores compounding."
+            },
+            {
+              "question": "True or false: if you never sell an investment that has dropped, you haven't really lost money.",
+              "options": [
+                "True — a loss only exists once you sell",
+                "True, as long as the investment eventually recovers",
+                "False — its value has dropped whether or not you sell",
+                "False, but only for crypto-assets"
+              ],
+              "answer": 2,
+              "explanation": "Selling only locks in (realises) a loss that already exists on paper. Not selling doesn't change today's value, and a recovery is never guaranteed."
+            },
+            {
+              "question": "Sara needs her money in 6 months to pay university fees. What matters most when deciding where to keep it?",
+              "options": [
+                "Getting the highest possible return",
+                "Choosing what her friends invest in",
+                "Picking the asset that rose most last year",
+                "Being able to access the full amount when she needs it"
+              ],
+              "answer": 3,
+              "explanation": "With a 6-month horizon there's little time to recover from a fall, so stability and access matter more than potential return. Chasing last year's winner adds risk she can't afford."
+            }
+          ]
+        },
+        {
+          "name": "Risk & return",
+          "subtitle": "Understand uncertainty and potential reward",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is risk?",
+              "body": "Risk is the possibility that an outcome differs from what you expected, including the possibility of losing some or all of the money invested."
+            },
+            {
+              "title": "Risk and return",
+              "body": "Higher potential returns often come with higher risk. A promised high return with no risk should be treated cautiously."
+            },
+            {
+              "title": "Time matters",
+              "body": "The time available before money is needed can affect how much uncertainty may be manageable. There is no one-size-fits-all answer."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Two investments both averaged 6% a year over 20 years. A moved between +4% and +8% each year; B moved between −25% and +35%. What is the key difference?",
+              "options": [
+                "None — with the same average return, the risk is the same",
+                "B is better, because its best years were much higher",
+                "A is riskier, because it never had a really strong year",
+                "B is far more volatile, so timing matters much more"
+              ],
+              "answer": 3,
+              "explanation": "The same average can hide a very different journey. If you need the money right after a −25% year, B hurts badly — the average alone tells you nothing about that."
+            },
+            {
+              "question": "An investment rises 50% one year and falls 50% the next. Where does it end up overall?",
+              "options": [
+                "Up 25%",
+                "Back where it started",
+                "Down 25%",
+                "Down 50%"
+              ],
+              "answer": 2,
+              "explanation": "100 → 150 → 75 CHF. The −50% applies to a bigger number than the +50% did, so equal percentage moves don't cancel out."
+            },
+            {
+              "question": "Which of these statements is FALSE?",
+              "options": [
+                "Higher potential returns usually come with higher risk",
+                "Two people can tolerate the same risk very differently",
+                "Taking more risk guarantees a higher return in the long run",
+                "Risk includes the possibility of losing money"
+              ],
+              "answer": 2,
+              "explanation": "Risk is the price of a chance of higher returns, not a promise of them. Risky investments can underperform for long periods — or lose money for good."
+            },
+            {
+              "question": "A colleague says: \"This product pays 12% a year, guaranteed, and it's totally safe. It has paid out for 3 years.\" What's the most reasonable reaction?",
+              "options": [
+                "Be very sceptical — high returns and no risk rarely go together",
+                "It's fine if a bank employee recommended it",
+                "It's fine, because it has paid out for 3 years",
+                "It's safe as long as you start with a small amount"
+              ],
+              "answer": 0,
+              "explanation": "Return compensates for risk, so a 'guaranteed' high return is a classic warning sign. A payout track record proves little — Ponzi schemes pay early investors too."
+            },
+            {
+              "question": "Keeping money in cash for 20 years mainly exposes you to which risk?",
+              "options": [
+                "Large daily price swings",
+                "The value falling to zero if a company fails",
+                "Inflation eroding its purchasing power",
+                "A market crash wiping out the balance"
+              ],
+              "answer": 2,
+              "explanation": "The CHF balance is stable, but inflation quietly shrinks what it buys: at 2% a year for 20 years, 100 CHF buys only what about 67 CHF buys today. Crashes and daily swings are share-market risks."
+            }
+          ]
+        },
+        {
+          "name": "ETFs explained",
+          "subtitle": "Learn how funds can bundle investments",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is a fund?",
+              "body": "A fund pools money from many investors and uses it to hold a collection of assets according to its stated approach."
+            },
+            {
+              "title": "What is an ETF?",
+              "body": "An exchange-traded fund (ETF) is a fund whose shares trade on an exchange. ETFs can hold different kinds of assets and are not all equally diversified or low-risk."
+            },
+            {
+              "title": "Read the basics",
+              "body": "Before evaluating a fund, understand what it holds, its costs, its risks, and what index or strategy it follows."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An ETF tracks an index of 40 tech companies from a single country. Which statement is most accurate?",
+              "options": [
+                "It's low-risk, because ETFs are diversified by definition",
+                "It's well diversified, because 40 companies is plenty",
+                "It can't fall further than the overall stock market",
+                "It's spread across companies but concentrated in one sector"
+              ],
+              "answer": 3,
+              "explanation": "Many holdings isn't the same as broad diversification when they all share the same drivers. An ETF is just a wrapper: its risk depends on what's inside."
+            },
+            {
+              "question": "True or false: an ETF that tracks an index can't lose money over a year.",
+              "options": [
+                "False, but only leveraged ETFs can fall",
+                "True, because ETFs are regulated",
+                "True, the fund manager protects the capital",
+                "False — it rises and falls with the index it tracks"
+              ],
+              "answer": 3,
+              "explanation": "Tracking an index means you get its losses as well as its gains. Regulation governs how the fund is run and protects its assets from the provider's failure — not its market value."
+            },
+            {
+              "question": "What does it mean that ETF shares 'trade on an exchange'?",
+              "options": [
+                "You can always sell them back at the price you paid",
+                "Their price is set once a day by the issuer, after the close",
+                "You can trade them during market hours at a changing price",
+                "They can only be bought directly from the fund company"
+              ],
+              "answer": 2,
+              "explanation": "ETFs trade throughout the day like shares, with prices that move constantly. A once-a-day price is how many traditional, non-listed funds work."
+            },
+            {
+              "question": "Which statement about ETFs is FALSE?",
+              "options": [
+                "ETFs charge ongoing fees",
+                "Two ETFs on 'the same' theme can hold very different things",
+                "Some ETFs hold bonds instead of shares",
+                "All ETFs track a broad market index"
+              ],
+              "answer": 3,
+              "explanation": "Many ETFs track narrow sectors, themes or single countries, and some use leverage. The label 'ETF' says nothing about how broad the contents are."
+            },
+            {
+              "question": "You hold 20'000 CHF in a fund with ongoing costs of 1.2% a year. Roughly how much do costs take in one year?",
+              "options": [
+                "About 240 CHF",
+                "About 24 CHF",
+                "Nothing, unless you sell",
+                "About 1'200 CHF"
+              ],
+              "answer": 0,
+              "explanation": "20'000 × 1.2% = 240 CHF. Costs are deducted from the fund's value continuously, so you pay them even if you never sell."
+            }
+          ]
+        },
+        {
+          "name": "Diversification",
+          "subtitle": "Learn why spreading exposure matters",
+          "minutes": 5,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "The basic idea",
+              "body": "Diversification means spreading exposure across different investments rather than relying on just one."
+            },
+            {
+              "title": "Why it can help",
+              "body": "If one holding performs poorly, other holdings may behave differently. Diversification can reduce some risks, but it cannot eliminate risk."
+            },
+            {
+              "title": "Not just the number",
+              "body": "Owning many investments that all depend on the same company, sector or market may provide less diversification than it first appears."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Nina owns five ETFs: world shares, US shares, US tech, global tech, and the 50 biggest US companies. What's the main issue?",
+              "options": [
+                "No overlap is possible, since each fund follows its own index",
+                "Heavy overlap: the same big companies are in several funds",
+                "She needs at least ten funds to be properly diversified",
+                "None — five different funds give five times the diversification"
+              ],
+              "answer": 1,
+              "explanation": "The largest companies dominate several of these indexes, so she effectively owns them several times. Counting funds is not the same as counting different exposures."
+            },
+            {
+              "question": "Which pair is likely to provide the MOST diversification?",
+              "options": [
+                "Two different funds tracking the same share index",
+                "A tech ETF and shares of a large tech company",
+                "Shares of two banks from the same country",
+                "Global shares and high-quality government bonds"
+              ],
+              "answer": 3,
+              "explanation": "Assets driven by different factors diversify more. Same-index funds and same-sector companies tend to move together, so combining them adds little."
+            },
+            {
+              "question": "True or false: if you hold 1'000 different shares, you can't lose money in a market crash.",
+              "options": [
+                "True — with so many companies, the losses cancel each other out",
+                "False, because 1'000 shares is still not enough to be safe",
+                "False — a market-wide fall hits most shares at once",
+                "True, as long as the companies come from different countries"
+              ],
+              "answer": 2,
+              "explanation": "When the whole market falls, most shares fall together. Diversification removes much of the risk tied to single companies, but not the risk of the market itself."
+            },
+            {
+              "question": "Paul works for a company and holds most of his savings in its shares. Why is this especially risky?",
+              "options": [
+                "Employee shares are protected and can't lose value",
+                "It's only risky if the company is small or very young",
+                "It isn't — he knows the company well, so the risk is lower",
+                "His job and his savings depend on the same company"
+              ],
+              "answer": 3,
+              "explanation": "His income and his investments depend on the same company — a double concentration. Knowing a company well feels safe but doesn't protect against bad surprises."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "A diversified portfolio will always beat a concentrated one",
+                "Diversification limits the damage if one holding collapses",
+                "A diversified portfolio will usually do worse than its single best holding",
+                "Spreading across countries reduces dependence on one economy"
+              ],
+              "answer": 0,
+              "explanation": "Diversification deliberately gives up the chance of being all-in on the winner, in exchange for less dependence on any loser. A concentrated portfolio sometimes does better — and sometimes much worse."
+            }
+          ]
+        },
+        {
+          "name": "Goals & time horizon",
+          "subtitle": "Connect financial goals with time",
+          "minutes": 5,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Define the goal",
+              "body": "A goal should describe what the money is for and roughly when it may be needed."
+            },
+            {
+              "title": "Time horizon",
+              "body": "Time horizon is the length of time before you expect to use the money. Short-term needs generally leave less time to recover from market declines."
+            },
+            {
+              "title": "Review your understanding",
+              "body": "A sound learning process starts with goals, risk, costs and reliable information—not hype or pressure to act quickly."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Léa will buy an apartment in 2 years and needs her deposit then. What is the main risk if she invests it all in shares?",
+              "options": [
+                "A market fall just before she needs the money",
+                "Missing out on the dividends she'd earn by waiting",
+                "Paying too much tax on her gains when she sells",
+                "Shares rarely fall much over a period as long as 2 years"
+              ],
+              "answer": 0,
+              "explanation": "Shares can fall 20–30% or more within a single year. Over 2 years there may be no time to recover, so the size of possible short-term losses matters more than long-run averages."
+            },
+            {
+              "question": "Which goal can usually tolerate the MOST short-term volatility?",
+              "options": [
+                "Retirement savings for a 25-year-old",
+                "A holiday next summer",
+                "A car purchase planned in 3 years",
+                "An emergency fund"
+              ],
+              "answer": 0,
+              "explanation": "With decades until the money is needed, there's time to ride out downturns. An emergency fund is the opposite: it must be available at any moment."
+            },
+            {
+              "question": "Why is an emergency fund usually kept somewhere stable and accessible rather than in shares?",
+              "options": [
+                "Because shares always lose value over short periods",
+                "Because emergencies are rare, so it doesn't matter",
+                "Because cash earns more than shares over time",
+                "Emergencies often coincide with bad times, when shares may be down"
+              ],
+              "answer": 3,
+              "explanation": "Job losses and recessions often arrive together with market falls, and you don't want to be forced to sell low. Shares don't always fall short-term — the point is that you can't know."
+            },
+            {
+              "question": "Investing 200 CHF a month for 30 years means paying in 72'000 CHF. At an assumed constant 5% a year, the end value is roughly…",
+              "options": [
+                "About 108'000 CHF",
+                "About 300'000 CHF",
+                "About 166'000 CHF",
+                "About 75'600 CHF"
+              ],
+              "answer": 2,
+              "explanation": "Each deposit compounds for the time it stays invested, giving ≈166'000 CHF — more than double what was paid in. 75'600 CHF applies 5% only once, ignoring decades of compounding. Real returns are never constant."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Your horizon can change if your life changes",
+                "A long time horizon means you can't lose money in shares",
+                "A longer horizon gives more time to recover from falls",
+                "Different goals can have different horizons"
+              ],
+              "answer": 1,
+              "explanation": "Longer horizons have historically reduced the chance of a loss, but never to zero — and a fall just before you need the money still hurts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Markets & assets",
+      "color": "#6fd6ff",
+      "description": "Shares, bonds, cash, property, commodities and crypto — what you actually own.",
+      "levels": [
+        {
+          "name": "Shares",
+          "subtitle": "Owning a slice of a company",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is a share?",
+              "body": "A share is a small piece of ownership in a company. Shareholders can benefit if the company grows or pays out part of its profits as dividends — and can lose if it struggles."
+            },
+            {
+              "title": "Where returns come from",
+              "body": "Share returns come from price changes and dividends. Neither is guaranteed: companies can cut dividends, and prices can fall for long periods."
+            },
+            {
+              "title": "Last in line",
+              "body": "If a company goes bankrupt, lenders are paid before shareholders. Shareholders are last in line, one reason shares are riskier than the same company's bonds."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A company pays a dividend of 2 CHF per share and its share price is 80 CHF. What is its dividend yield?",
+              "options": [
+                "2%",
+                "40%",
+                "2.5%",
+                "4%"
+              ],
+              "answer": 2,
+              "explanation": "Dividend yield = dividend ÷ price = 2 ÷ 80 = 2.5%. '2%' mixes up the dividend amount in CHF with a percentage."
+            },
+            {
+              "question": "A company goes bankrupt. In what order are investors usually repaid?",
+              "options": [
+                "Whoever invested most recently",
+                "Everyone shares the losses equally",
+                "Shareholders first, because they own the company",
+                "Lenders and bondholders first, shareholders last"
+              ],
+              "answer": 3,
+              "explanation": "Owners carry the residual risk: they only get what's left after creditors are paid, which is often nothing."
+            },
+            {
+              "question": "True or false: a company with growing profits always sees its share price rise.",
+              "options": [
+                "True, the share price always follows profits over time",
+                "False, share prices depend only on dividends paid",
+                "False — expectations also drive the price",
+                "True, at least over any 12-month period"
+              ],
+              "answer": 2,
+              "explanation": "If the market expected 20% profit growth and gets 10%, the price can fall even though profits rose. Prices reflect expectations, not just results."
+            },
+            {
+              "question": "Which statement about shares is FALSE?",
+              "options": [
+                "Share prices can change every second during trading",
+                "Shareholders may have voting rights",
+                "Large, well-known companies can't lose most of their value",
+                "Dividends can be cut or cancelled"
+              ],
+              "answer": 2,
+              "explanation": "Many once-dominant companies have collapsed or shrunk dramatically. Size and fame are no guarantee."
+            },
+            {
+              "question": "Tom sees a share that fell from 100 CHF to 30 CHF and says: \"It can't go much lower — it's a bargain.\" What's the flaw?",
+              "options": [
+                "Past prices set no floor — it can keep falling",
+                "None — shares nearly always return to their previous high",
+                "He should wait until it gets close to zero before buying",
+                "Regulators halt trading before a share can fall much further"
+              ],
+              "answer": 0,
+              "explanation": "Past prices set no floor; a 70% fall may reflect real problems. Anchoring on the old 100 CHF price is a common bias."
+            }
+          ]
+        },
+        {
+          "name": "Bonds",
+          "subtitle": "Lending money for interest",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is a bond?",
+              "body": "A bond is a loan to a government or company. The issuer usually pays regular interest (the coupon) and promises to repay the face value at maturity."
+            },
+            {
+              "title": "Prices and rates move in opposite directions",
+              "body": "If interest rates rise, existing bonds paying lower coupons become less attractive, so their prices fall. When rates fall, existing bonds become more valuable."
+            },
+            {
+              "title": "Bonds have risks too",
+              "body": "A bond can lose value if rates rise, if inflation erodes its fixed payments, or if the issuer can't pay (credit risk). Longer bonds react more strongly to rate changes."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Interest rates rise from 1% to 3%. What typically happens to the price of an existing bond paying a 1% coupon?",
+              "options": [
+                "It stays the same, because the coupon is fixed",
+                "It falls, because new bonds now pay more",
+                "It is automatically repaid early",
+                "It rises, because rates are higher"
+              ],
+              "answer": 1,
+              "explanation": "Nobody pays full price for 1% when new bonds pay 3%, so the old bond's price drops. The fixed coupon is exactly why the price has to adjust."
+            },
+            {
+              "question": "True or false: a bond can never lose value.",
+              "options": [
+                "False — rising rates and defaults can both hit it",
+                "False, but only bonds from companies, never governments",
+                "True for government bonds, which can't default",
+                "True, because you always get the face value back at the end"
+              ],
+              "answer": 0,
+              "explanation": "If you hold to maturity and the issuer pays, you get the face value — but before that the price can fall, and defaults do happen, even for some governments."
+            },
+            {
+              "question": "A bond pays a 2 CHF annual coupon on a 100 CHF face value, but trades at 95 CHF. What is its current yield (coupon ÷ price)?",
+              "options": [
+                "About 2.1%",
+                "Exactly 2%",
+                "About 1.9%",
+                "About 5%"
+              ],
+              "answer": 0,
+              "explanation": "2 ÷ 95 ≈ 2.1%. Buying below face value raises your yield; 2% is the coupon rate on face value, not on the price you pay."
+            },
+            {
+              "question": "Two bonds from the same government mature in 2 and in 20 years. If rates rise sharply, which usually loses more value?",
+              "options": [
+                "The 2-year bond",
+                "Neither — government bonds aren't affected by rates",
+                "The 20-year bond",
+                "Both lose the same amount"
+              ],
+              "answer": 2,
+              "explanation": "Longer bonds lock in the old rate for longer, so their prices are more sensitive (higher 'duration'). As a rough guide, a duration of 7 means about a 7% price fall for a 1-point rate rise."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Weaker issuers usually have to pay higher yields",
+                "Inflation can erode the real value of fixed coupons",
+                "A higher-yielding company bond is simply a better deal",
+                "Bondholders are usually repaid before shareholders"
+              ],
+              "answer": 2,
+              "explanation": "A higher yield is usually compensation for higher credit risk: investors demand more to lend to riskier borrowers."
+            }
+          ]
+        },
+        {
+          "name": "Cash & savings",
+          "subtitle": "Stability, access and inflation",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Cash is an asset too",
+              "body": "Cash includes bank accounts and money-market products. Its value in CHF is stable, which makes it useful for emergencies and short-term needs."
+            },
+            {
+              "title": "The hidden cost: inflation",
+              "body": "If prices rise faster than the interest you earn, your cash loses purchasing power, even though the balance never goes down."
+            },
+            {
+              "title": "Real vs nominal",
+              "body": "Nominal return is the number you see. Real return subtracts inflation. 1% interest with 2% inflation is a real return of about −1%."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Your savings earn 1% while inflation is 2%. Your real return is roughly…",
+              "options": [
+                "About +1%",
+                "About +3%",
+                "0%, since your balance didn't fall",
+                "About −1%"
+              ],
+              "answer": 3,
+              "explanation": "1.01 ÷ 1.02 − 1 ≈ −1%. The balance grows, but what it can buy shrinks."
+            },
+            {
+              "question": "Which is the strongest reason to hold some cash?",
+              "options": [
+                "Cash has delivered the highest returns over the long run",
+                "Covering emergencies without selling investments",
+                "Cash is protected from every kind of financial risk",
+                "Holding cash lets you buy back in at the perfect moment"
+              ],
+              "answer": 1,
+              "explanation": "Cash's strength is stability and access. It isn't risk-free — inflation erodes it — and historically it has earned less than shares over long periods."
+            },
+            {
+              "question": "Inflation averages 3% a year for 10 years. 1'000 CHF in cash earning nothing will then buy roughly what ___ buys today.",
+              "options": [
+                "About 744 CHF",
+                "About 970 CHF",
+                "About 700 CHF",
+                "Still 1'000 CHF"
+              ],
+              "answer": 0,
+              "explanation": "1'000 ÷ 1.03¹⁰ ≈ 744 CHF. 700 CHF simply subtracts 3% × 10 years, which ignores that inflation compounds."
+            },
+            {
+              "question": "Inès keeps 60'000 CHF in her current account 'just in case'. A 6-month emergency fund for her would be about 15'000 CHF. What trade-off is she making?",
+              "options": [
+                "None — holding more cash is always the most sensible choice",
+                "High safety, but the surplus loses purchasing power",
+                "Her cash will keep up with inflation thanks to interest",
+                "She's taking more risk than someone fully invested in shares"
+              ],
+              "answer": 1,
+              "explanation": "Holding more cash than safety requires isn't wrong, but it has an opportunity cost: the surplus is exposed to inflation. It's a choice, not a free lunch."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Deposit protection schemes usually have limits",
+                "Savings rates can change when central bank rates change",
+                "Cash can steady a portfolio during market falls",
+                "A savings account's rate is fixed for life"
+              ],
+              "answer": 3,
+              "explanation": "Most savings rates are variable and follow market rates up and down. Deposit protection exists but is capped (in Switzerland, up to 100'000 CHF per client per bank)."
+            }
+          ]
+        },
+        {
+          "name": "Real estate",
+          "subtitle": "Property, rent and leverage",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Owning property",
+              "body": "Real estate can generate rental income and may rise in value, but it is expensive to buy, costly to maintain and slow to sell."
+            },
+            {
+              "title": "Leverage cuts both ways",
+              "body": "Most property is bought with a mortgage. Borrowing magnifies gains and losses on the money you put in yourself."
+            },
+            {
+              "title": "Indirect property",
+              "body": "You can also get property exposure through listed real-estate funds or companies. They're easier to trade, but their prices can swing like shares."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "You buy a 500'000 CHF apartment with 100'000 CHF of your own money and a 400'000 CHF mortgage. The price falls 10%. Ignoring costs, what happens to your own money?",
+              "options": [
+                "Nothing — the bank takes the loss",
+                "It falls 10%",
+                "It falls 50%, to 50'000 CHF",
+                "It falls 40%"
+              ],
+              "answer": 2,
+              "explanation": "The apartment is now worth 450'000 CHF, but you still owe 400'000 CHF, leaving 50'000 CHF. Leverage turned a 10% price fall into a 50% loss of your equity."
+            },
+            {
+              "question": "An apartment costs 500'000 CHF and earns 15'000 CHF of rent per year after costs. What is its net rental yield?",
+              "options": [
+                "0.3%",
+                "15%",
+                "3%",
+                "33%"
+              ],
+              "answer": 2,
+              "explanation": "15'000 ÷ 500'000 = 3%. '33%' divides the wrong way round."
+            },
+            {
+              "question": "What's a key drawback of owning one property directly compared with a listed real-estate fund?",
+              "options": [
+                "Owning property directly comes with no ongoing costs",
+                "A single property can't fall in price the way funds do",
+                "Listed real-estate funds don't move with interest rates",
+                "It's slow to sell and concentrated in one building"
+              ],
+              "answer": 3,
+              "explanation": "Direct property is illiquid and concentrated. Listed funds spread money across many buildings and trade daily — but their prices are more volatile."
+            },
+            {
+              "question": "True or false: property prices always rise over the long term.",
+              "options": [
+                "False, but only for commercial property",
+                "False — prices can fall for years",
+                "True, as long as you own for 10 years or more",
+                "True, land is limited, so prices must rise over time"
+              ],
+              "answer": 1,
+              "explanation": "Scarcity doesn't guarantee rising prices. Several countries have had long property slumps — including Switzerland in the 1990s."
+            },
+            {
+              "question": "Which statement about listed real-estate funds is FALSE?",
+              "options": [
+                "They can trade above or below the value of their buildings",
+                "Their price only moves when the buildings are revalued",
+                "They spread your money across many properties",
+                "Their price can react to interest-rate changes"
+              ],
+              "answer": 1,
+              "explanation": "Listed fund prices move every trading day with market sentiment and interest rates, not only when the buildings are revalued."
+            }
+          ]
+        },
+        {
+          "name": "Commodities",
+          "subtitle": "Gold, oil and raw materials",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What are commodities?",
+              "body": "Commodities are raw materials like gold, oil or wheat. They produce no income, so returns come only from price changes driven by supply, demand and sentiment."
+            },
+            {
+              "title": "Gold's reputation",
+              "body": "Gold is often seen as a store of value in crises, yet its price has also gone through long periods of decline. Reputation is not a guarantee."
+            },
+            {
+              "title": "How funds get exposure",
+              "body": "Many commodity funds don't store barrels or sacks; they hold futures contracts, which must be rolled over and can make returns differ from the headline price."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Why doesn't gold pay dividends or interest?",
+              "options": [
+                "Because financial regulators don't allow it",
+                "It's a physical good, so it produces no cash flow",
+                "It does — gold pays a small yearly yield to holders",
+                "Because its return is guaranteed instead of paid out"
+              ],
+              "answer": 1,
+              "explanation": "Gold's return comes only from price changes; storing and insuring physical gold can even cost money."
+            },
+            {
+              "question": "True or false: gold always rises when shares fall.",
+              "options": [
+                "False, gold always falls together with shares",
+                "True, it's a guaranteed hedge",
+                "True, because central banks make sure of it",
+                "False — it sometimes does, but not reliably"
+              ],
+              "answer": 3,
+              "explanation": "Relationships between assets shift over time. Gold has risen in some crises and fallen in others."
+            },
+            {
+              "question": "Oil prices jump because of a sudden supply disruption. Which outcome is quite possible?",
+              "options": [
+                "The higher price becomes permanent",
+                "Oil prices can now only rise with inflation",
+                "Prices fall back quickly once supply returns",
+                "All company shares rise with oil"
+              ],
+              "answer": 2,
+              "explanation": "Commodity prices react sharply to supply and demand shocks, and spikes often reverse. Oil prices have more than halved within months several times."
+            },
+            {
+              "question": "A commodity fund holds futures contracts rather than the physical goods. What's one consequence?",
+              "options": [
+                "It pays a regular interest coupon, much like a bond does",
+                "Rolling contracts can make it drift from the spot price",
+                "It tracks the spot price exactly, since futures follow it",
+                "It can't lose money, because futures contracts are hedged"
+              ],
+              "answer": 1,
+              "explanation": "When a contract expires, the fund buys the next one, which may cost more or less. This 'roll' can make the fund's return drift away from the headline price."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Commodity prices are driven by supply and demand",
+                "Storing physical commodities can cost money",
+                "Commodities can behave differently from shares",
+                "Because commodities are real things, their prices can't fall much"
+              ],
+              "answer": 3,
+              "explanation": "Being physical doesn't protect the price. Oil, metals and crops have all seen falls of 50% or more."
+            }
+          ]
+        },
+        {
+          "name": "Crypto-assets",
+          "subtitle": "Volatility and specific risks",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What are crypto-assets?",
+              "body": "Crypto-assets are digital tokens recorded on a blockchain. Many have no cash flows; their price depends on what others are willing to pay."
+            },
+            {
+              "title": "Extreme volatility",
+              "body": "Major crypto-assets have fallen by more than 50% several times, and thousands of smaller tokens have gone to almost zero."
+            },
+            {
+              "title": "Risks beyond price",
+              "body": "Crypto adds risks like hacks, lost keys, platform failures and limited investor protection. Bank deposit protection generally doesn't apply."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A crypto-asset falls 80%. What gain is then needed to get back to its starting price?",
+              "options": [
+                "+100%",
+                "+80%",
+                "+160%",
+                "+400%"
+              ],
+              "answer": 3,
+              "explanation": "100 → 20 CHF; getting back to 100 CHF means multiplying by 5, a +400% gain. Losses need much bigger gains to recover."
+            },
+            {
+              "question": "You keep crypto on an online platform that goes bankrupt. What is the main risk?",
+              "options": [
+                "None — the blockchain guarantees you get them back",
+                "Deposit insurance covers crypto like a bank account",
+                "Your coins automatically move to another platform",
+                "You may lose access to your coins, with limited or no protection"
+              ],
+              "answer": 3,
+              "explanation": "If the platform holds the keys, you may just be one of many creditors. Bank deposit protection generally doesn't cover crypto, and some platform collapses left users waiting years or losing funds."
+            },
+            {
+              "question": "True or false: a token with a fixed maximum supply must rise in value.",
+              "options": [
+                "False — scarcity only supports a price if there's demand",
+                "False, but only if more tokens are created",
+                "True, once all tokens have been issued",
+                "True, limited supply always pushes prices up"
+              ],
+              "answer": 0,
+              "explanation": "Price needs demand as well as scarcity. Many tokens with a capped supply have collapsed."
+            },
+            {
+              "question": "A friend says: \"Only invest what you can afford to lose — but this coin will do 10×, so I'm putting all my savings in.\" What's the inconsistency?",
+              "options": [
+                "'All in' contradicts 'only what you can afford to lose'",
+                "The real problem is that 10× is too low a target",
+                "The problem is he isn't borrowing to invest even more",
+                "There's none — a likely 10× makes the risk worth taking"
+              ],
+              "answer": 0,
+              "explanation": "The first sentence is the sensible one. Certainty about a 10× is speculation, and putting all savings in one asset means a single failure can wipe them out."
+            },
+            {
+              "question": "Which statement about crypto is FALSE?",
+              "options": [
+                "Some crypto projects have failed completely",
+                "Crypto prices are stable because no central bank controls them",
+                "Losing your private keys can mean losing access for good",
+                "Major crypto-assets have fallen more than 50% several times"
+              ],
+              "answer": 1,
+              "explanation": "Having no central authority doesn't create stability — crypto has been among the most volatile asset types."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Funds & costs",
+      "color": "#b79cff",
+      "description": "How funds work, what indexes are, and why costs compound.",
+      "levels": [
+        {
+          "name": "Active vs passive",
+          "subtitle": "Picking winners or tracking the market",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Two approaches",
+              "body": "An active fund's managers pick investments, trying to beat a benchmark. A passive fund aims to copy an index as closely as possible."
+            },
+            {
+              "title": "The cost hurdle",
+              "body": "Active funds usually charge more for research and trading. To beat the index after fees, they must first beat it by more than their extra costs."
+            },
+            {
+              "title": "Beating the market is hard",
+              "body": "Studies regularly find that most active funds trail their benchmark over long periods after fees, and past winners often don't stay winners."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An active fund beat its index by 3% last year. What can you reasonably conclude?",
+              "options": [
+                "Not much — one good year can easily be luck",
+                "That passive funds have become obsolete for this market",
+                "The manager is skilled and will keep beating the index",
+                "It will most likely beat the index by 3% again this year"
+              ],
+              "answer": 0,
+              "explanation": "One good year is consistent with luck. Research shows that top-performing funds often fall back in later years."
+            },
+            {
+              "question": "Before costs, an active fund and an index fund both return 6%. The active fund costs 1.5% a year, the index fund 0.2%. Their returns after costs are…",
+              "options": [
+                "4.5% and 5.8%",
+                "6% and 6% — costs are paid by the provider",
+                "4.5% and 6%",
+                "6% and 5.8%"
+              ],
+              "answer": 0,
+              "explanation": "Costs come out of the fund's return: 6 − 1.5 = 4.5% and 6 − 0.2 = 5.8%. Investors always bear them."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Someone still chooses which index to track",
+                "Passive funds usually have lower costs",
+                "An index fund falls when its index falls",
+                "Passive funds involve no decisions at all"
+              ],
+              "answer": 3,
+              "explanation": "Choosing an index, how it's weighted and when it's rebalanced are all decisions — passive just means following fixed rules."
+            },
+            {
+              "question": "What is 'survivorship bias' when comparing funds?",
+              "options": [
+                "Only funds older than 10 years can enter the rankings",
+                "Investors who survive market crashes end up earning more",
+                "The funds that survive are, by definition, the best ones",
+                "Closed, poorly performing funds vanish from the data"
+              ],
+              "answer": 3,
+              "explanation": "Closed or merged funds are often the losers. Leaving them out flatters the average performance of the funds that remain."
+            },
+            {
+              "question": "Every January, Marc switches to the fund that topped last year's performance ranking. What's the main risk?",
+              "options": [
+                "Rankings only measure risk, not the actual returns",
+                "Top funds often owe it to luck or a fading theme",
+                "He avoids all fees by switching only once a year",
+                "None — strong performance tends to continue year after year"
+              ],
+              "answer": 1,
+              "explanation": "Chasing performance means buying after a run-up, often just before it fades — and each switch can add costs."
+            }
+          ]
+        },
+        {
+          "name": "Indexes",
+          "subtitle": "What an index really measures",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is an index?",
+              "body": "An index is a list of investments chosen by rules, with a way to weight them. You can't invest in it directly — only in products that track it."
+            },
+            {
+              "title": "Market-cap weighting",
+              "body": "Most share indexes weight companies by market value, so the biggest companies have the most influence on the index's moves."
+            },
+            {
+              "title": "Not all indexes are broad",
+              "body": "An index can cover the world, one country, one sector or a narrow theme. A broad-sounding name can hide concentrated contents."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A market-value-weighted index has three companies worth 300, 100 and 100 billion CHF. What weight does the largest have?",
+              "options": [
+                "33%",
+                "50%",
+                "75%",
+                "60%"
+              ],
+              "answer": 3,
+              "explanation": "300 ÷ (300 + 100 + 100) = 60%. 33% would be equal weighting, which most share indexes don't use."
+            },
+            {
+              "question": "In a market-cap-weighted index, one company's share price rises much faster than the others'. What happens?",
+              "options": [
+                "It's removed from the index",
+                "Nothing — weights are fixed once a year",
+                "Its weight in the index grows automatically",
+                "Its weight is cut back to keep things equal"
+              ],
+              "answer": 2,
+              "explanation": "Weights follow market values, so winners grow their share. This is why such indexes can become concentrated in a few giants."
+            },
+            {
+              "question": "True or false: an index called 'World' gives roughly equal exposure to every country.",
+              "options": [
+                "True, that's exactly what the word 'World' means",
+                "False, it only contains European and US companies",
+                "False — a few big markets dominate it",
+                "True, it's rebalanced to equal country weights"
+              ],
+              "answer": 2,
+              "explanation": "World share indexes are usually weighted by market value, so the US alone often makes up well over half of them."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "You can buy an index directly, just like a share",
+                "Index rules decide which companies are in or out",
+                "Two indexes covering the same market can differ",
+                "Indexes are rebalanced periodically"
+              ],
+              "answer": 0,
+              "explanation": "An index is a calculation. You get exposure to it through funds or other products that track it."
+            },
+            {
+              "question": "Why can a share index's 'price' version show a lower return than its 'total return' version?",
+              "options": [
+                "They're always identical, just published separately",
+                "The price version leaves out reinvested dividends",
+                "The total-return version only counts the biggest firms",
+                "The total-return version includes the fund's fees"
+              ],
+              "answer": 1,
+              "explanation": "Dividends are a big part of long-term share returns. Over decades, reinvesting them makes a large difference."
+            }
+          ]
+        },
+        {
+          "name": "Physical vs synthetic ETFs",
+          "subtitle": "How an ETF copies its index",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Physical replication",
+              "body": "A physical ETF buys the securities in its index — all of them (full replication) or a representative sample."
+            },
+            {
+              "title": "Synthetic replication",
+              "body": "A synthetic ETF uses a swap: a bank agrees to pay the index return in exchange for the return of a basket the fund holds. This adds counterparty risk."
+            },
+            {
+              "title": "Securities lending",
+              "body": "Some physical ETFs lend out their holdings for a fee. It earns extra income but adds a small risk if the borrower fails, usually limited by collateral."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "What is the main extra risk of a synthetic ETF compared with a physical one?",
+              "options": [
+                "It isn't allowed to hold any assets at all",
+                "It can't track its index with any accuracy",
+                "Counterparty risk if the swap bank fails",
+                "Its fees are always higher than physical ETFs'"
+              ],
+              "answer": 2,
+              "explanation": "If the swap bank fails, the fund relies on the collateral it holds. Rules limit this exposure, but don't eliminate it."
+            },
+            {
+              "question": "A physical ETF tracks an index of 3'000 small companies but holds only 1'200 of them. What is this called?",
+              "options": [
+                "Synthetic replication via a swap",
+                "Active stock-picking by the manager",
+                "Sampling (optimised replication)",
+                "Securities lending to other banks"
+              ],
+              "answer": 2,
+              "explanation": "Buying a representative sample can be cheaper than buying every tiny company, at the cost of slightly less precise tracking."
+            },
+            {
+              "question": "True or false: a synthetic ETF on a share index must hold the shares of that index.",
+              "options": [
+                "False, it is only allowed to hold cash",
+                "True, otherwise the fund would be illegal",
+                "True, and it adds a swap on top of them",
+                "False — it can hold a different basket"
+              ],
+              "answer": 3,
+              "explanation": "The swap delivers the index return, so the fund's own basket can be different — which is exactly why counterparty risk matters."
+            },
+            {
+              "question": "Why might a provider use synthetic replication for some markets?",
+              "options": [
+                "It can be cheaper where buying the securities is hard",
+                "Because they never have any tracking difference",
+                "Because the swap removes the index's market risk",
+                "Because synthetic ETFs can't lose value in a crash"
+              ],
+              "answer": 0,
+              "explanation": "Synthetic replication changes how the return is delivered, not what it is: you still get the index's losses as well as its gains."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Lending can generate extra income for the fund",
+                "Securities lending means the ETF sells its shares permanently",
+                "Borrowers usually have to provide collateral",
+                "Lending income may be shared between the fund and its provider"
+              ],
+              "answer": 1,
+              "explanation": "Lent securities are returned at the end of the loan; the fund keeps ownership and is protected by collateral in the meantime."
+            }
+          ]
+        },
+        {
+          "name": "Fees & TER",
+          "subtitle": "Why small percentages add up",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is the TER?",
+              "body": "The total expense ratio (TER) shows a fund's ongoing yearly costs as a percentage of your investment. It's taken from the fund's value, so you never see a bill."
+            },
+            {
+              "title": "Other costs",
+              "body": "Besides the TER, you may pay trading commissions, custody fees, currency conversion and the bid-ask spread. All of these reduce your net return."
+            },
+            {
+              "title": "Small % big effect",
+              "body": "Costs are deducted every year, so they compound just like returns. A gap that looks tiny each year can become large over decades."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A fund costs 1.5% a year instead of 0.2%. On 10'000 CHF growing at 5% a year before costs for 30 years, roughly how much less do you end up with?",
+              "options": [
+                "About 1'300 CHF less",
+                "About 3'900 CHF less",
+                "About 390 CHF less",
+                "About 12'700 CHF less"
+              ],
+              "answer": 3,
+              "explanation": "10'000 × 1.048³⁰ ≈ 40'800 CHF versus 10'000 × 1.035³⁰ ≈ 28'100 CHF: a gap of about 12'700 CHF. 3'900 CHF (1.3% × 30 years × 10'000) ignores that costs compound."
+            },
+            {
+              "question": "You hold 50'000 CHF in a fund with a 0.5% TER. Roughly how much do its ongoing costs take per year?",
+              "options": [
+                "About 25 CHF",
+                "Nothing in years when the fund loses money",
+                "About 250 CHF",
+                "About 2'500 CHF"
+              ],
+              "answer": 2,
+              "explanation": "50'000 × 0.5% = 250 CHF. The TER is charged in losing years too, because it's a percentage of the assets, not of the gains."
+            },
+            {
+              "question": "True or false: a fund with a 0% TER is completely free to own.",
+              "options": [
+                "True, if you hold the fund for long enough",
+                "False, but only because of taxes on the gains",
+                "False — trading and custody fees may still apply",
+                "True, because the TER already covers every cost"
+              ],
+              "answer": 2,
+              "explanation": "The TER only covers the fund's own running costs. Your bank or broker can still charge for buying, holding and converting."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Higher costs must be offset by higher returns before costs",
+                "A more expensive fund is more likely to perform better",
+                "Costs are deducted in bad years as well as good ones",
+                "Costs are one of the few things known in advance"
+              ],
+              "answer": 1,
+              "explanation": "Research generally finds that higher-cost funds don't outperform on average. Costs are certain; extra performance is not."
+            },
+            {
+              "question": "Two funds track the same index. A: TER 0.10%, but your bank charges 40 CHF per purchase. B: TER 0.25%, no purchase fee. You invest 100 CHF a month. Which costs less in the first year?",
+              "options": [
+                "It's impossible to say without past returns",
+                "Fund B — twelve 40 CHF fees dwarf the TER difference",
+                "Fund A, because its TER is lower",
+                "They cost about the same"
+              ],
+              "answer": 1,
+              "explanation": "Fund A costs about 480 CHF in purchase fees on 1'200 CHF invested; the TER gap on such a small balance is around 1 CHF. Fixed fees matter a lot for small, regular amounts."
+            }
+          ]
+        },
+        {
+          "name": "Tracking error",
+          "subtitle": "How closely a fund follows its index",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Tracking difference",
+              "body": "Tracking difference is the gap between a fund's return and its index's return over a period. Costs usually make it slightly negative."
+            },
+            {
+              "title": "Tracking error",
+              "body": "Tracking error measures how much that gap varies over time. Low tracking error means the fund follows its index's ups and downs closely."
+            },
+            {
+              "title": "Why gaps appear",
+              "body": "Fees, cash held for investor flows, sampling, dividend timing, withholding taxes and securities-lending income can all make a fund deviate from its index."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An index returns 8% in a year; the fund tracking it returns 7.7%. Its TER is 0.2%. What does this show?",
+              "options": [
+                "The fund outperformed its index",
+                "A tracking error of 7.7%",
+                "A tracking difference of −0.2% (the TER)",
+                "A tracking difference of −0.3%"
+              ],
+              "answer": 3,
+              "explanation": "7.7% − 8% = −0.3%. The extra 0.1% beyond the TER comes from other frictions like cash drag or taxes on dividends."
+            },
+            {
+              "question": "What does a HIGH tracking error tell you?",
+              "options": [
+                "The fund is consistently outperforming its index",
+                "The index itself is very volatile",
+                "The fund charges unusually high fees",
+                "The fund's gap to the index varies a lot"
+              ],
+              "answer": 3,
+              "explanation": "Tracking error measures how much the gap varies, not its direction or the index's own volatility. High fees can be perfectly steady."
+            },
+            {
+              "question": "True or false: an index fund can sometimes beat its own index slightly.",
+              "options": [
+                "False, it's mathematically impossible for an index fund",
+                "True, but only if the manager picks better shares",
+                "False, regulators forbid funds from doing better",
+                "True — e.g. thanks to securities-lending income"
+              ],
+              "answer": 3,
+              "explanation": "Small extra income sources can occasionally more than offset costs. That has nothing to do with stock-picking — an index fund doesn't do that."
+            },
+            {
+              "question": "Which is NOT a typical cause of tracking difference?",
+              "options": [
+                "The index having a strong year",
+                "Holding some cash for investor flows",
+                "Ongoing fund costs",
+                "Owning only a sample of the index"
+              ],
+              "answer": 0,
+              "explanation": "A strong year is simply matched by the fund. Gaps come from frictions — costs, cash, sampling — not from the direction of the market."
+            },
+            {
+              "question": "Two ETFs track the same index. A: TER 0.07%, tracking difference −0.40% a year. B: TER 0.20%, tracking difference −0.15% a year. Which has cost holders less in practice?",
+              "options": [
+                "They're equal once you add TER and tracking",
+                "B, since tracking difference captures all costs",
+                "You can't tell without knowing the index's return",
+                "A, because its TER is lower than B's"
+              ],
+              "answer": 1,
+              "explanation": "The TER is only one ingredient. Tracking difference shows what holders actually got versus the index, and B lagged by less."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Risk & psychology",
+      "color": "#ffc46b",
+      "description": "How prices swing, how losses feel, and the biases that trip investors up.",
+      "levels": [
+        {
+          "name": "Volatility",
+          "subtitle": "Measuring the swings",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is volatility?",
+              "body": "Volatility measures how much returns swing around their average. Higher volatility means a wider range of outcomes, good and bad."
+            },
+            {
+              "title": "Volatility drag",
+              "body": "Swings hurt compound growth: +20% then −20% leaves you 4% down, even though the simple average return is 0%."
+            },
+            {
+              "title": "Not the only risk",
+              "body": "A calm-looking investment can still carry risks volatility doesn't show, like default, illiquidity or inflation."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An investment gains 20% and then loses 20%. What is the overall result?",
+              "options": [
+                "+4%",
+                "−4%",
+                "−20%",
+                "0%"
+              ],
+              "answer": 1,
+              "explanation": "1.20 × 0.80 = 0.96, so you're down 4%. The simple average (0%) hides the effect of compounding on swings."
+            },
+            {
+              "question": "A has an annual volatility of 5%, B of 25%; both expect similar long-run returns. Which statement is most accurate?",
+              "options": [
+                "B's yearly outcomes are spread much wider",
+                "A can't lose money in any given year",
+                "B will return about five times more than A",
+                "Volatility only measures how much prices rise"
+              ],
+              "answer": 0,
+              "explanation": "Volatility measures dispersion in both directions. Higher volatility doesn't promise higher return, and lower volatility doesn't rule out losses."
+            },
+            {
+              "question": "True or false: an investment with low past volatility is safe.",
+              "options": [
+                "False — some assets look calm until they suddenly drop or default",
+                "False, because volatility always increases over time",
+                "True, volatility is the complete measure of risk",
+                "True, if measured over at least 3 years"
+              ],
+              "answer": 0,
+              "explanation": "Illiquid or rarely priced assets can look smooth until a sudden repricing. Past calm is not the same as safety."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Volatility is often measured as the standard deviation of returns",
+                "Short horizons are more exposed to volatility",
+                "Two investments with the same average return always end with the same value",
+                "For the same average return, more volatility tends to reduce compound growth"
+              ],
+              "answer": 2,
+              "explanation": "The order and size of swings matter: the more volatile path usually compounds to less, even with the same simple average."
+            },
+            {
+              "question": "An investor checks her portfolio every day and gets stressed by red days. Why is this likely, even if the long-term trend is up?",
+              "options": [
+                "Checking daily tends to increase her returns",
+                "Losing days are rare when the trend is upward",
+                "Day to day, rises and falls are close to random",
+                "Checking daily makes the portfolio itself riskier"
+              ],
+              "answer": 2,
+              "explanation": "Day to day, share markets fall almost as often as they rise. The longer the period you look at, the less the noise dominates the trend."
+            }
+          ]
+        },
+        {
+          "name": "Drawdowns",
+          "subtitle": "How deep and how long falls can be",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is a drawdown?",
+              "body": "A drawdown is the fall from a previous peak to a low point. The maximum drawdown is the worst such fall over a period."
+            },
+            {
+              "title": "The maths of recovery",
+              "body": "Losses need bigger gains to recover: −20% needs +25%, and −50% needs +100%."
+            },
+            {
+              "title": "Time under water",
+              "body": "After a big fall, it can take years to regain the old peak. How long you might wait matters as much as how deep the fall is."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A portfolio falls 50%. What gain is needed to get back to where it started?",
+              "options": [
+                "+50%",
+                "+150%",
+                "+100%",
+                "+75%"
+              ],
+              "answer": 2,
+              "explanation": "100 → 50 CHF; doubling back to 100 CHF is a +100% gain. A +50% gain only brings it to 75 CHF."
+            },
+            {
+              "question": "A portfolio falls 30%. Roughly what gain is needed to recover?",
+              "options": [
+                "+30%",
+                "About +43%",
+                "About +33%",
+                "About +60%"
+              ],
+              "answer": 1,
+              "explanation": "1 ÷ 0.70 − 1 ≈ 42.9%. The gain is calculated on the smaller, post-fall amount."
+            },
+            {
+              "question": "A portfolio goes 100'000 → 130'000 → 91'000 → 120'000 CHF. What was its maximum drawdown?",
+              "options": [
+                "9%",
+                "None — it's back above 100'000 CHF",
+                "39%",
+                "30%"
+              ],
+              "answer": 3,
+              "explanation": "Drawdowns are measured from the peak: (130'000 − 91'000) ÷ 130'000 = 30%. 9% wrongly measures from the starting value instead of the peak."
+            },
+            {
+              "question": "True or false: broad share markets have always recovered in the past, so any single share will recover too.",
+              "options": [
+                "False, but only for small companies",
+                "True, if you wait at least 10 years",
+                "False — individual companies can fall and never recover",
+                "True, every share eventually returns to its peak"
+              ],
+              "answer": 2,
+              "explanation": "Market recoveries mix winners and failures. Even whole markets can take decades: Japan's main index took about 34 years to regain its 1989 peak."
+            },
+            {
+              "question": "Before investing, Lucas says he can handle 'some ups and downs'. Which question tests his real tolerance best?",
+              "options": [
+                "\"Which investment did best over the last year?\"",
+                "\"Could I stay invested if 50'000 fell to 30'000?\"",
+                "\"How do I make sure I never see a single loss?\"",
+                "\"What is the best return I could realistically get?\""
+              ],
+              "answer": 1,
+              "explanation": "Concrete amounts and durations reveal real tolerance. Vague statements tend to overestimate how calm we'll be in an actual fall."
+            }
+          ]
+        },
+        {
+          "name": "Correlation",
+          "subtitle": "How assets move together",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is correlation?",
+              "body": "Correlation measures how two investments move relative to each other, from +1 (together) to −1 (opposite). 0 means no consistent link."
+            },
+            {
+              "title": "Why it matters",
+              "body": "Combining assets with low correlation can smooth a portfolio's swings. Highly correlated assets fall together."
+            },
+            {
+              "title": "Correlations change",
+              "body": "In crises, many risky assets tend to fall together, so diversification can weaken just when it's needed most."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Two assets have a correlation of +0.95. What does that suggest?",
+              "options": [
+                "Holding both doubles your diversification",
+                "They move together, so mixing them adds little",
+                "They tend to move in opposite directions",
+                "One rises by 95% whenever the other one rises"
+              ],
+              "answer": 1,
+              "explanation": "Correlation describes how consistently they move together, not by how much. A value near +1 means little diversification benefit."
+            },
+            {
+              "question": "The correlation between A and B is close to 0. Which statement is true?",
+              "options": [
+                "They will have the same return",
+                "They always move in opposite directions",
+                "Neither of them will move",
+                "Knowing A's move tells you little about B's move"
+              ],
+              "answer": 3,
+              "explanation": "Zero correlation means no consistent linear relationship. Opposite moves would be a negative correlation."
+            },
+            {
+              "question": "True or false: correlations measured in calm years stay the same during a crisis.",
+              "options": [
+                "False, in crises all correlations become −1",
+                "True, correlation is a fixed property of each asset",
+                "False — in crises many risky assets tend to fall together",
+                "True, if measured over 10 years"
+              ],
+              "answer": 2,
+              "explanation": "Correlations are estimated from past data and shift with conditions. Diversification often weakens in market panics."
+            },
+            {
+              "question": "In 2022, both shares and many high-quality bonds fell in the same year. What does this illustrate?",
+              "options": [
+                "Asset relationships can change, e.g. when rates rise",
+                "Diversification never works when you need it",
+                "Shares and bonds are basically the same asset",
+                "Bonds always hedge shares — 2022 was a data error"
+              ],
+              "answer": 0,
+              "explanation": "Rising inflation and interest rates hurt both at once. Bonds often cushion share falls, but not always."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "A correlation of −1 means both assets lose money at the same time",
+                "Correlations are estimated from past data",
+                "Adding a low-correlation asset can reduce overall volatility",
+                "Correlation doesn't tell you how big the moves are"
+              ],
+              "answer": 0,
+              "explanation": "−1 means the two move in exactly opposite directions: when one falls, the other rises."
+            }
+          ]
+        },
+        {
+          "name": "Investor biases",
+          "subtitle": "FOMO, loss aversion and more",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "FOMO",
+              "body": "Fear of missing out pushes people to buy what has already risen a lot — often near the top — because everyone around them seems to be getting rich."
+            },
+            {
+              "title": "Loss aversion",
+              "body": "Losses feel roughly twice as painful as equal gains feel good. This can lead to panic selling, or to holding losers too long hoping to 'get even'."
+            },
+            {
+              "title": "Confirmation & overconfidence",
+              "body": "We seek information that confirms what we already believe, and we tend to overrate our skill. Both make it easy to ignore warning signs."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Julie only reads forums praising the company she owns and dismisses critical articles as written by 'haters'. Which bias is this?",
+              "options": [
+                "Anchoring bias",
+                "Confirmation bias",
+                "Loss aversion bias",
+                "Home-country bias"
+              ],
+              "answer": 1,
+              "explanation": "She filters information to fit what she already believes. Loss aversion is about how losses feel, not which sources we read."
+            },
+            {
+              "question": "Ben won't sell a share that fell from 50 to 20 CHF: \"I'll sell once it's back to 50.\" Which bias is most at play?",
+              "options": [
+                "FOMO on a possible rebound",
+                "Rational, disciplined rebalancing",
+                "Confirmation bias about the firm",
+                "Anchoring, plus loss aversion"
+              ],
+              "answer": 3,
+              "explanation": "The market doesn't know or care what Ben paid. A more useful question is whether he'd buy the share today at 20 CHF."
+            },
+            {
+              "question": "After three successful trades in a row, Max doubles his position sizes, convinced he 'reads the market'. Which bias?",
+              "options": [
+                "Loss aversion",
+                "Mental accounting",
+                "Herd behaviour",
+                "Overconfidence"
+              ],
+              "answer": 3,
+              "explanation": "Three wins are easily explained by luck. Overconfidence leads people to take bigger risks right after a lucky streak."
+            },
+            {
+              "question": "A token rises 300% in a month. Everyone at work talks about it, and Eva buys in so she doesn't miss out. Which bias?",
+              "options": [
+                "Anchoring on the old price",
+                "Loss aversion after a drop",
+                "FOMO and herd behaviour",
+                "Confirmation bias"
+              ],
+              "answer": 2,
+              "explanation": "She's acting on social pressure and recent gains, not on her own analysis — often exactly when prices are most stretched."
+            },
+            {
+              "question": "Which statement about loss aversion is FALSE?",
+              "options": [
+                "It can lead people to hold losing investments too long",
+                "It can lead people to sell in panic during falls",
+                "Losses tend to feel stronger than equal gains",
+                "Loss aversion helps people make more balanced decisions"
+              ],
+              "answer": 3,
+              "explanation": "Loss aversion distorts decisions in both directions — panic selling and stubborn holding — rather than balancing them."
+            }
+          ]
+        },
+        {
+          "name": "Market timing",
+          "subtitle": "Why predicting the market is hard",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is market timing?",
+              "body": "Market timing means moving in and out of the market to avoid falls and catch rises. It requires being right twice: when to leave and when to return."
+            },
+            {
+              "title": "Big days cluster",
+              "body": "Many of the market's best days have historically come close to its worst days, during turbulent periods. Leaving after a fall risks missing the rebound."
+            },
+            {
+              "title": "A planned approach",
+              "body": "An alternative is a plan such as investing regularly. It doesn't avoid falls, but it removes the need to predict them."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Why does market timing require being right twice?",
+              "options": [
+                "It doesn't — selling before the fall is enough",
+                "Because you pay taxes on both sales and purchases",
+                "You must time both the exit and the re-entry",
+                "Because you must predict both the crash and its cause"
+              ],
+              "answer": 2,
+              "explanation": "Avoiding a fall is only half the job. Many people who sell in time miss the rebound because they wait for things to 'feel safe'."
+            },
+            {
+              "question": "Anna sells everything after a 20% fall, planning to buy back 'when things calm down'. The market then rebounds 15% in two months. What's the core problem?",
+              "options": [
+                "None — selling after the fall avoided all her losses",
+                "Rebounds often start before things feel calm",
+                "Rebounds never happen this fast after a fall",
+                "Her only mistake was not selling even earlier"
+              ],
+              "answer": 1,
+              "explanation": "She locked in the 20% loss and missed the rebound. Markets tend to recover while the news still feels bad."
+            },
+            {
+              "question": "What is 'dollar-cost averaging'?",
+              "options": [
+                "Investing only after prices have fallen",
+                "Investing a fixed amount at regular intervals",
+                "Selling a fixed amount every single month",
+                "Converting your savings into US dollars"
+              ],
+              "answer": 1,
+              "explanation": "A fixed amount buys more units when prices are low and fewer when they're high. It's a discipline, not a guarantee."
+            },
+            {
+              "question": "True or false: investing a fixed amount every month guarantees a profit.",
+              "options": [
+                "True, as long as you keep going for 12 months",
+                "False — prices can still end lower",
+                "False, it actually guarantees a small loss",
+                "True, averaging always beats lump-sum investing"
+              ],
+              "answer": 1,
+              "explanation": "If prices are lower at the end than your average purchase price, you still lose. Regular investing reduces timing regret, not market risk."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Some of the best market days happen during volatile periods",
+                "Frequent in-and-out trading can add costs and taxes",
+                "Missing a few strong days can noticeably reduce long-term returns",
+                "Professional investors reliably predict crashes in advance"
+              ],
+              "answer": 3,
+              "explanation": "Crashes are rarely predicted reliably, even by professionals. Forecasts that look right after the fact are usually outnumbered by ones that were wrong."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Macro & money",
+      "color": "#ff8f7a",
+      "description": "Inflation, interest rates, currencies and the economic cycle.",
+      "levels": [
+        {
+          "name": "Inflation",
+          "subtitle": "Purchasing power over time",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is inflation?",
+              "body": "Inflation is the general rise in prices over time. It means each franc buys a little less than before."
+            },
+            {
+              "title": "It compounds too",
+              "body": "Inflation compounds: 2% a year for 20 years cuts purchasing power by about a third."
+            },
+            {
+              "title": "Real returns",
+              "body": "What matters for long-term goals is the return after inflation. A 3% return with 2% inflation is only about 1% in real terms."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "With 2% inflation a year for 20 years, 100 CHF will buy roughly what ___ buys today.",
+              "options": [
+                "About 98 CHF",
+                "About 67 CHF",
+                "About 60 CHF",
+                "About 80 CHF"
+              ],
+              "answer": 1,
+              "explanation": "100 ÷ 1.02²⁰ ≈ 67 CHF. 60 CHF simply subtracts 2% × 20 years and ignores compounding."
+            },
+            {
+              "question": "Your salary rises 3% while inflation is 5%. Your real pay changes by roughly…",
+              "options": [
+                "About −5%",
+                "About +3%",
+                "About −2%",
+                "About +8%"
+              ],
+              "answer": 2,
+              "explanation": "1.03 ÷ 1.05 ≈ 0.981, so about −2%. You earn more francs, but they buy less."
+            },
+            {
+              "question": "Who is most directly hurt by unexpectedly high inflation?",
+              "options": [
+                "A company that can easily raise its prices",
+                "Someone holding a long-term bond with fixed coupons",
+                "Someone with a fixed-rate mortgage",
+                "Someone who owns goods whose prices are rising"
+              ],
+              "answer": 1,
+              "explanation": "Fixed payments lose real value when prices rise. A fixed-rate borrower is on the other side: they repay in francs that are worth less."
+            },
+            {
+              "question": "True or false: 0% inflation means the price of everything stays the same.",
+              "options": [
+                "False, it means all prices fall slightly",
+                "True, that's what 0% inflation means",
+                "True, at least for food and rent",
+                "False — it's an average of many prices"
+              ],
+              "answer": 3,
+              "explanation": "Inflation measures the average change across a basket of goods and services. Your personal inflation depends on what you buy."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Central banks often aim for low, positive inflation",
+                "Inflation affects households differently depending on what they buy",
+                "A little deflation (falling prices) is always good for the economy",
+                "Inflation reduces the real burden of fixed debts"
+              ],
+              "answer": 2,
+              "explanation": "Persistent deflation can make people delay spending and increases the real weight of debts — which is why central banks generally try to avoid it."
+            }
+          ]
+        },
+        {
+          "name": "Interest rates & central banks",
+          "subtitle": "How the price of money is set",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What central banks do",
+              "body": "Central banks, like the Swiss National Bank, set a policy interest rate to keep prices stable. Changing it influences borrowing costs across the economy."
+            },
+            {
+              "title": "Raising rates",
+              "body": "Higher rates make borrowing more expensive and saving more attractive. This can cool spending and inflation — and often weighs on bond and share prices."
+            },
+            {
+              "title": "Cutting rates",
+              "body": "Lower rates make borrowing cheaper, which can support spending and investment. They also reduce what savers earn."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Inflation is well above the central bank's target. What would it typically do?",
+              "options": [
+                "Freeze all prices by law",
+                "Cut its policy rate",
+                "Raise its policy rate",
+                "Create more money to boost demand"
+              ],
+              "answer": 2,
+              "explanation": "Raising rates makes borrowing dearer and cools demand, which helps bring inflation down. Cutting rates would add fuel."
+            },
+            {
+              "question": "A central bank cuts rates unexpectedly. Which is a typical immediate effect?",
+              "options": [
+                "Prices of existing bonds tend to rise",
+                "Rates on new mortgages go up",
+                "Savings rates go up",
+                "Prices of existing bonds tend to fall"
+              ],
+              "answer": 0,
+              "explanation": "Existing bonds with higher coupons become more valuable when new rates fall — the inverse price–rate relationship."
+            },
+            {
+              "question": "Elena has a variable-rate mortgage of 400'000 CHF. Rates rise by 1 percentage point. Roughly how much more interest does she pay per year?",
+              "options": [
+                "About 400 CHF",
+                "About 4'000 CHF",
+                "About 40'000 CHF",
+                "Nothing until the mortgage matures"
+              ],
+              "answer": 1,
+              "explanation": "400'000 × 1% = 4'000 CHF a year. 'Nothing until maturity' applies to a fixed-rate mortgage, not a variable one."
+            },
+            {
+              "question": "True or false: the central bank directly sets every interest rate in the economy.",
+              "options": [
+                "True, every rate is fixed by the central bank",
+                "True, but only for mortgages and loans",
+                "False, it has no influence on other rates",
+                "False — it sets a policy rate that others follow"
+              ],
+              "answer": 3,
+              "explanation": "Mortgage, savings and bond rates are set by banks and markets. They react to the policy rate and to expectations about it."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Higher rates reduce the present value of future company profits",
+                "Expected rate changes can move markets before any decision",
+                "Higher rates increase savers' interest income",
+                "Higher interest rates are good news for every type of investment"
+              ],
+              "answer": 3,
+              "explanation": "Higher rates help savers but often weigh on bond prices, property and shares — especially companies whose profits lie far in the future."
+            }
+          ]
+        },
+        {
+          "name": "Currency risk",
+          "subtitle": "Investing outside the franc",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Investing abroad",
+              "body": "If you invest in assets priced in another currency, your return in CHF depends on both the asset and the exchange rate."
+            },
+            {
+              "title": "Two moves combine",
+              "body": "If a US share rises 10% in dollars but the dollar falls 10% against the franc, your CHF return is about −1%."
+            },
+            {
+              "title": "Hedging",
+              "body": "Some funds hedge currency risk to reduce its impact. Hedging has a cost and removes currency gains as well as losses."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A US share rises 10% in USD, while the dollar falls 10% against the franc. Your return in CHF is about…",
+              "options": [
+                "0%",
+                "+10%",
+                "−1%",
+                "−10%"
+              ],
+              "answer": 2,
+              "explanation": "1.10 × 0.90 = 0.99, so about −1%. The two moves multiply rather than simply cancel."
+            },
+            {
+              "question": "A eurozone fund returns +5% in EUR while the euro falls 8% against the franc. Your return in CHF is roughly…",
+              "options": [
+                "+13%",
+                "About −3.4%",
+                "Exactly −3% (5 − 8)",
+                "+5%"
+              ],
+              "answer": 1,
+              "explanation": "1.05 × 0.92 ≈ 0.966, about −3.4%. Subtracting 8 from 5 is a close shortcut, but returns combine by multiplying."
+            },
+            {
+              "question": "What does a currency-hedged share fund aim to do?",
+              "options": [
+                "Remove the risk of the shares falling",
+                "Replace foreign shares with Swiss ones",
+                "Reduce the impact of currency moves",
+                "Guarantee a profit measured in CHF"
+              ],
+              "answer": 2,
+              "explanation": "Hedging targets currency moves only. If the shares fall, the hedged fund falls too."
+            },
+            {
+              "question": "True or false: currency risk only matters if you travel abroad.",
+              "options": [
+                "False, but only for crypto-assets and gold",
+                "True, because Swiss funds are always quoted in CHF",
+                "True, if you buy everything through a Swiss bank",
+                "False — any foreign-currency asset is exposed"
+              ],
+              "answer": 3,
+              "explanation": "A fund quoted in CHF that holds US shares still carries dollar risk, unless it's hedged."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Over short periods, currency moves can outweigh asset moves",
+                "Currency hedging usually has a cost",
+                "A stronger franc increases the CHF value of your foreign investments",
+                "A weaker foreign currency reduces CHF returns from that market"
+              ],
+              "answer": 2,
+              "explanation": "A stronger franc means each dollar or euro converts into fewer francs, which reduces the CHF value of foreign assets."
+            }
+          ]
+        },
+        {
+          "name": "Recessions & cycles",
+          "subtitle": "Booms, busts and markets",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "The economic cycle",
+              "body": "Economies alternate between expansions and contractions. The timing and length of each phase are irregular and hard to predict."
+            },
+            {
+              "title": "What is a recession?",
+              "body": "A recession is a significant, broad decline in economic activity. A common rule of thumb is two consecutive quarters of falling GDP."
+            },
+            {
+              "title": "Markets look ahead",
+              "body": "Share markets often fall before a recession is officially confirmed, and can start recovering while the economic news is still bad."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "During a recession, unemployment is rising and the news is grim — yet the share market rises. What best explains this?",
+              "options": [
+                "It must be some form of manipulation",
+                "Markets price the future, not today's data",
+                "Share prices only follow unemployment",
+                "Markets completely ignore the economy"
+              ],
+              "answer": 1,
+              "explanation": "If investors expect the worst to pass, prices can rise even while current data is bad."
+            },
+            {
+              "question": "What is a common rule-of-thumb definition of a recession?",
+              "options": [
+                "Two consecutive quarters of falling GDP",
+                "One month of rising unemployment",
+                "Inflation above 5%",
+                "Any year in which shares fall 10%"
+              ],
+              "answer": 0,
+              "explanation": "It's a rule of thumb; some official bodies use broader criteria such as employment and income. A market fall alone isn't a recession."
+            },
+            {
+              "question": "True or false: economists can reliably predict when the next recession will start.",
+              "options": [
+                "True, recessions follow a fixed 7-year cycle",
+                "False — forecasts often get the timing wrong",
+                "True, the yield curve always predicts the exact date",
+                "False, recessions can't be measured at all"
+              ],
+              "answer": 1,
+              "explanation": "Some indicators have warned of recessions in the past, but none reliably predicts the timing. There's no fixed cycle length."
+            },
+            {
+              "question": "Heading into a recession, which company's profits are typically MOST sensitive to the cycle?",
+              "options": [
+                "A supermarket chain",
+                "A maker of basic medicines",
+                "A luxury car maker",
+                "An electricity utility"
+              ],
+              "answer": 2,
+              "explanation": "People delay big discretionary purchases in hard times, so 'cyclical' businesses suffer most. 'Defensive' ones are more stable — but not immune."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Unemployment usually rises in a recession",
+                "Recessions can come with falling share prices",
+                "Recessions always last at least five years",
+                "Central banks may cut rates during a recession"
+              ],
+              "answer": 2,
+              "explanation": "Most recessions last from a few months to a couple of years, though their effects can linger longer."
+            }
+          ]
+        },
+        {
+          "name": "Reading economic news",
+          "subtitle": "GDP, jobs and surprises",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Key indicators",
+              "body": "GDP measures an economy's total output. Unemployment, inflation and business surveys add detail about how households and companies are doing."
+            },
+            {
+              "title": "Expectations matter",
+              "body": "Markets react to the gap between what was expected and what's announced. 'Good' news can move prices down if it was less good than expected."
+            },
+            {
+              "title": "Headlines vs your plan",
+              "body": "Economic news changes daily and is often revised later. Long-term plans built on goals and time horizon don't need to react to every headline."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Inflation comes out at 3.0%. Economists expected 2.5%. Bond prices fall. Why?",
+              "options": [
+                "Bonds react to unemployment, not to inflation",
+                "Bond prices fall after any data release",
+                "The surprise makes rate rises more likely",
+                "3% inflation always hurts bonds, expected or not"
+              ],
+              "answer": 2,
+              "explanation": "Markets had already priced in about 2.5%. The extra 0.5% raises expectations of higher rates — and bond prices move opposite to rates."
+            },
+            {
+              "question": "A country's GDP grows 1% in a quarter, but its population also grows 1%. What happened to GDP per person?",
+              "options": [
+                "It fell about 1%",
+                "Roughly unchanged",
+                "It grew about 1%",
+                "It grew about 2%"
+              ],
+              "answer": 1,
+              "explanation": "1.01 ÷ 1.01 = 1: output grew at the same pace as the population, so output per person is flat. Headline GDP growth can hide this."
+            },
+            {
+              "question": "True or false: the first estimate of GDP growth is final and never changes.",
+              "options": [
+                "False, but revisions are always upwards",
+                "True, unless the economy is in recession",
+                "False — early estimates are often revised",
+                "True, statistics offices publish only once"
+              ],
+              "answer": 2,
+              "explanation": "First releases rely on incomplete data. Revisions can go up or down, sometimes changing the story noticeably."
+            },
+            {
+              "question": "A company reports record profits, but its share price falls 8% the same day. What's the most likely explanation?",
+              "options": [
+                "Investors expected even better results",
+                "The stock exchange made a pricing error",
+                "Record profits are always bad for shares",
+                "Share prices don't react to profits"
+              ],
+              "answer": 0,
+              "explanation": "Prices already reflect expectations. Results below hopes — or a cautious outlook — can push the price down despite records."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Economic data is frequently revised",
+                "Markets often react to surprises rather than levels",
+                "Unemployment usually rises during recessions",
+                "Rising unemployment always sinks shares that month"
+              ],
+              "answer": 3,
+              "explanation": "Markets look ahead and react to surprises; the link between monthly unemployment figures and share prices is loose and inconsistent."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Scams & red flags",
+      "color": "#ff7eb6",
+      "description": "How investment scams work and the warning signs that give them away.",
+      "levels": [
+        {
+          "name": "Ponzi schemes",
+          "subtitle": "Paying old investors with new money",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "How a Ponzi works",
+              "body": "A Ponzi scheme pays 'returns' to earlier investors using money from new investors. There's no real profit — it collapses when new money dries up."
+            },
+            {
+              "title": "Why it looks legit",
+              "body": "Early investors really do get paid, so they recommend it to friends. Steady, smooth returns in all market conditions are a hallmark."
+            },
+            {
+              "title": "Pyramid cousins",
+              "body": "Pyramid schemes reward you mainly for recruiting others. If income depends on recruiting rather than a real product, that's a red flag."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A scheme promises 2% per WEEK, 'guaranteed'. Compounded over a year, that's roughly…",
+              "options": [
+                "About +180% per year",
+                "About +104% per year",
+                "About +24% per year",
+                "About +2% per year"
+              ],
+              "answer": 0,
+              "explanation": "1.02⁵² ≈ 2.8, so about +180% a year — far beyond any legitimate investment. +104% is 2% × 52, which ignores compounding."
+            },
+            {
+              "question": "Your friend has received 1% a month from a scheme for a year and shows you the statements. What does this prove?",
+              "options": [
+                "That it must be regulated, or it couldn't pay",
+                "That the scheme is real and genuinely profitable",
+                "That future returns are now effectively secure",
+                "Very little — Ponzis pay early investors too"
+              ],
+              "answer": 3,
+              "explanation": "Payments to early investors are how Ponzi schemes recruit new ones. Statements can also be fabricated."
+            },
+            {
+              "question": "Which feature is most typical of a Ponzi scheme?",
+              "options": [
+                "Smooth, high returns that never have a bad month",
+                "Fees clearly listed in an official fact sheet",
+                "Assets held by an independent custodian",
+                "Returns that rise and fall with the market"
+              ],
+              "answer": 0,
+              "explanation": "Real investments fluctuate. Independent custody and audited accounts make fraud harder — though not impossible."
+            },
+            {
+              "question": "True or false: if a scheme is run by a respected member of your community, it's probably safe.",
+              "options": [
+                "True, if many members have already joined",
+                "True, people rarely scam their own community",
+                "False, but only for schemes run online",
+                "False — affinity fraud targets close groups"
+              ],
+              "answer": 3,
+              "explanation": "Fraudsters exploit trust within communities, clubs and religious groups. Trust is not a substitute for checking."
+            },
+            {
+              "question": "Why do Ponzi schemes eventually collapse?",
+              "options": [
+                "Payouts require ever more new money, which eventually runs out",
+                "Regulators always shut them down in the first month",
+                "They only collapse when the founder retires",
+                "Their investments lose value in a crash"
+              ],
+              "answer": 0,
+              "explanation": "There are no real returns to pay from. A crash or a wave of withdrawals can trigger the collapse, but the root cause is the missing profit."
+            }
+          ]
+        },
+        {
+          "name": "Pump & dump",
+          "subtitle": "Hype, spike, crash",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "The scheme",
+              "body": "Promoters buy a cheap, thinly traded asset, hype it online to pull in buyers, then sell their holdings at the inflated price. Late buyers are left with the crash."
+            },
+            {
+              "title": "Typical targets",
+              "body": "Small companies and new tokens with few buyers are easiest to move. A small amount of money can push their price sharply."
+            },
+            {
+              "title": "Spot the hype",
+              "body": "Urgent messages, rocket emojis, 'next 100×' claims and anonymous groups coordinating 'buy now' are classic signs."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A promoter buys 1'000 CHF of a token at 0.10 CHF, hypes it, and sells everything at 0.30 CHF. What's his profit?",
+              "options": [
+                "3'000 CHF",
+                "2'000 CHF",
+                "200 CHF",
+                "300 CHF"
+              ],
+              "answer": 1,
+              "explanation": "1'000 ÷ 0.10 = 10'000 tokens, sold for 3'000 CHF, minus the 1'000 CHF cost = 2'000 CHF. 3'000 CHF is the sale amount, not the profit. That profit comes from the followers who bought near the top."
+            },
+            {
+              "question": "Which asset is EASIEST to pump?",
+              "options": [
+                "A large company in a major share index",
+                "A tiny token with little trading volume",
+                "A government bond with a long maturity",
+                "A broad, global index fund"
+              ],
+              "answer": 1,
+              "explanation": "With few buyers and sellers, modest buying pressure moves the price a lot. Large, heavily traded assets are much harder to manipulate."
+            },
+            {
+              "question": "A Telegram group announces: \"Next coin drops at 18:00 — buy instantly and hold to the moon!\" What's most likely happening?",
+              "options": [
+                "An official announcement by the exchange",
+                "A regulated public offering by a new project",
+                "A coordinated pump: organisers sell to latecomers",
+                "An investment club sharing its research"
+              ],
+              "answer": 2,
+              "explanation": "Organisers usually buy before the announcement and sell into the rush they create."
+            },
+            {
+              "question": "True or false: if the price is already rising fast, the hype must be justified.",
+              "options": [
+                "True, markets always price things correctly",
+                "False, but only if trading volume is falling",
+                "True, if the rise lasts more than a day",
+                "False — the rise can be the scheme itself"
+              ],
+              "answer": 3,
+              "explanation": "A pump creates its own 'proof'. A rising price says nothing about the underlying value."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Late buyers usually bear the losses",
+                "Pump-and-dump schemes only happen with crypto",
+                "They've targeted small company shares for decades",
+                "Organisers often sell while still promoting"
+              ],
+              "answer": 1,
+              "explanation": "Pump-and-dumps long predate crypto: small, thinly traded shares were classic targets."
+            }
+          ]
+        },
+        {
+          "name": "Fake influencers",
+          "subtitle": "Who is really talking?",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Who's talking?",
+              "body": "Anyone can post investment tips. Some promoters are paid to push products, or own what they promote, without saying so."
+            },
+            {
+              "title": "Fake proof",
+              "body": "Screenshots of profits, luxury lifestyles and testimonials are easy to fake and say nothing about risks or losses."
+            },
+            {
+              "title": "Check, don't trust",
+              "body": "Look for clear disclosures, check whether a firm is authorised by the regulator (FINMA in Switzerland), and be wary of anyone moving you to private chats."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "An influencer posts screenshots of 5'000 CHF daily profits and sells a 'trading signals' subscription. What's the best interpretation?",
+              "options": [
+                "Proof of nothing — subscriptions may be the business",
+                "The profits are real, since they're screenshots from the app",
+                "It's safe as long as the subscription is cheap",
+                "A large following is good evidence of real skill"
+              ],
+              "answer": 0,
+              "explanation": "Screenshots are easy to fake or cherry-pick. Selling subscriptions can be more profitable than trading."
+            },
+            {
+              "question": "Which is the strongest red flag?",
+              "options": [
+                "A disclosure saying \"I'm paid by this company for this post\"",
+                "A video explaining what an index fund is and how it works",
+                "A post reminding you that past performance is no guarantee",
+                "\"DM me and I'll manage your account — send your login.\""
+              ],
+              "answer": 3,
+              "explanation": "Never share account logins. A paid-partnership disclosure is actually a good sign of transparency."
+            },
+            {
+              "question": "A famous celebrity appears in an online ad for a trading platform promising 'guaranteed income'. What's most likely?",
+              "options": [
+                "It's a fake ad using the celebrity's image without permission",
+                "The celebrity has checked the platform",
+                "It's regulated because it appears on a big platform",
+                "Fake ads are impossible on big social networks"
+              ],
+              "answer": 0,
+              "explanation": "Fake celebrity endorsements, increasingly using deepfakes, are a common scam tactic. Platforms don't vet every ad."
+            },
+            {
+              "question": "True or false: an account with 1 million followers is a reliable source of investment advice.",
+              "options": [
+                "False — popularity isn't expertise",
+                "False, unless they post every day",
+                "True, the crowd filters out bad advice",
+                "True, if the account is verified"
+              ],
+              "answer": 0,
+              "explanation": "Popularity rewards entertainment and confidence, not accuracy. A verified badge confirms identity, not competence."
+            },
+            {
+              "question": "Someone you met online shows you profits on a trading app. You deposit a small amount, which quickly shows big gains. When you try to withdraw, you're told to pay a 'tax' first. What's happening?",
+              "options": [
+                "A legal Swiss tax on crypto gains",
+                "A temporary technical issue with the app",
+                "A scam — the gains and the 'tax' are fake",
+                "A normal withdrawal fee charged by platforms"
+              ],
+              "answer": 2,
+              "explanation": "Fake platforms show invented gains to draw in more money. Being asked to pay before you can withdraw is a hallmark of fraud."
+            }
+          ]
+        },
+        {
+          "name": "Guaranteed returns",
+          "subtitle": "Too good to be true",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "No free lunch",
+              "body": "In legitimate investing, higher potential return comes with higher risk. A high return that is 'guaranteed' should immediately raise questions."
+            },
+            {
+              "title": "Who guarantees it?",
+              "body": "A guarantee is only as strong as whoever gives it. Ask: who exactly pays if things go wrong, and could they?"
+            },
+            {
+              "title": "Reality check",
+              "body": "If a product claims returns far above what broad markets have offered, with no risk, it is almost certainly too good to be true."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which promise is the MOST suspicious?",
+              "options": [
+                "\"Returns may vary and you may lose money.\"",
+                "\"15% a year, capital guaranteed, zero risk.\"",
+                "\"1% interest on your savings, variable.\"",
+                "\"Past returns were 6%, but past performance is no guide.\""
+              ],
+              "answer": 1,
+              "explanation": "High return plus zero risk is the classic combination behind scams. The other statements describe normal, honest risk disclosures."
+            },
+            {
+              "question": "A product promises 1% per day. If that were true, what would 1'000 CHF become after 30 days?",
+              "options": [
+                "About 3'000 CHF",
+                "About 1'350 CHF",
+                "About 1'300 CHF",
+                "About 1'030 CHF"
+              ],
+              "answer": 1,
+              "explanation": "1'000 × 1.01³⁰ ≈ 1'348 CHF. Over a year, 1% a day would multiply money about 38 times — no legitimate investment does that consistently."
+            },
+            {
+              "question": "A seller says a product is 'capital-guaranteed'. What's the most important question to ask?",
+              "options": [
+                "Can I add more money to it next year?",
+                "Who provides the guarantee, and could they fail?",
+                "How many people have already invested in it?",
+                "Has it paid out every single month so far?"
+              ],
+              "answer": 1,
+              "explanation": "A guarantee is only as good as the guarantor. Popularity and past payouts say nothing about whether it holds up."
+            },
+            {
+              "question": "True or false: a 'guaranteed' product from a legitimate bank carries no risk at all.",
+              "options": [
+                "False — it still depends on the issuer",
+                "True, because banks in Switzerland can't fail",
+                "True, as long as the guarantee is in writing",
+                "False, but only for crypto-related products"
+              ],
+              "answer": 0,
+              "explanation": "Genuine capital-protected products carry issuer risk and often trade away upside, liquidity or inflation protection."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "If a return is guaranteed in writing, it can't be a scam",
+                "Guaranteed products may have caps or long lock-ups",
+                "Scammers often use official-looking documents",
+                "Checking the regulator's warning list is a useful step"
+              ],
+              "answer": 0,
+              "explanation": "Fake contracts and certificates are standard tools for fraudsters. A document is only as good as the entity behind it."
+            }
+          ]
+        },
+        {
+          "name": "Pressure to act fast",
+          "subtitle": "Urgency, secrecy and payment tricks",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Urgency is a tactic",
+              "body": "'Only 2 spots left', 'offer ends tonight' — scammers create urgency so you don't take time to think, check, or ask someone."
+            },
+            {
+              "title": "Secrecy and isolation",
+              "body": "Being told to keep an opportunity secret, not to tell your bank, or to move to an encrypted app are serious warning signs."
+            },
+            {
+              "title": "Unusual payments",
+              "body": "Requests to pay via crypto, gift cards or transfers to personal accounts are hard to reverse — which is why fraudsters prefer them."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which message is most likely a scam?",
+              "options": [
+                "\"Exclusive offer just for you — decide within the hour and don't tell your bank.\"",
+                "\"Your adviser is available next week to answer questions.\"",
+                "\"This investment may lose value; please read the risks.\"",
+                "\"Here's the key information document; take your time to read it.\""
+              ],
+              "answer": 0,
+              "explanation": "Urgency plus secrecy is a classic manipulation combo. Legitimate providers encourage you to read, compare and ask questions."
+            },
+            {
+              "question": "A caller says they're from your bank's 'security team' and asks you to move your savings to a 'safe account' immediately. What's the safest response?",
+              "options": [
+                "Ask for a confirmation SMS, then do as they say",
+                "Hang up and call your bank on its official number",
+                "Give them your card PIN so they can verify you",
+                "Move the money quickly to be safe"
+              ],
+              "answer": 1,
+              "explanation": "Banks don't ask customers to transfer money to 'safe accounts'. Caller IDs and SMS senders can be spoofed, so confirm through a channel you control."
+            },
+            {
+              "question": "Why do scammers prefer payments in crypto or gift cards?",
+              "options": [
+                "They're hard to trace and to reverse",
+                "They're cheaper for the person paying",
+                "They're more strictly regulated",
+                "Banks require them for investments"
+              ],
+              "answer": 0,
+              "explanation": "Card payments and bank transfers sometimes leave room for recovery; crypto and gift cards rarely do."
+            },
+            {
+              "question": "True or false: a genuine investment opportunity will rarely require you to decide within hours.",
+              "options": [
+                "False, unless you pay a reservation fee",
+                "False, good deals always vanish in minutes",
+                "True, but only for crypto opportunities",
+                "True — real offers give you time to check"
+              ],
+              "answer": 3,
+              "explanation": "Real offers may have deadlines, but they're documented and give you reasonable time. Extreme urgency is designed to stop you thinking."
+            },
+            {
+              "question": "An 'adviser' you've never met has called three times this week, praising your intelligence and saying 'smart people like you act fast'. Which tactic is this?",
+              "options": [
+                "A sign of a high-quality product",
+                "Helpful diversification advice",
+                "Flattery plus urgency to rush you",
+                "Standard, regulated investment advice"
+              ],
+              "answer": 2,
+              "explanation": "Repeated unsolicited calls, flattery and time pressure are textbook manipulation. Check whether the firm is authorised before engaging."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Startups & venture capital",
+      "color": "#5ef0d0",
+      "description": "How startups raise money, how ownership gets diluted, and how venture funds make returns.",
+      "levels": [
+        {
+          "name": "How startups raise money",
+          "subtitle": "From seed to Series A and beyond",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Funding stages",
+              "body": "Startups often raise money in stages: pre-seed and seed (idea, first product), Series A (proving the business model), then Series B, C… to scale."
+            },
+            {
+              "title": "Who invests",
+              "body": "Early money often comes from founders, friends, business angels and seed funds. Venture capital funds usually join as the company grows."
+            },
+            {
+              "title": "Equity, not loans",
+              "body": "Investors usually receive shares, not loans. They make money only if the company becomes more valuable and there's an exit, such as a sale or a stock-market listing."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "At which stage is a startup typically still testing whether customers really want its product?",
+              "options": [
+                "Series B",
+                "Series C",
+                "Stock-market listing (IPO)",
+                "Pre-seed / seed"
+              ],
+              "answer": 3,
+              "explanation": "Early rounds fund the search for product–market fit. Later rounds typically fund scaling a model that already works."
+            },
+            {
+              "question": "How do early startup investors usually get their money back?",
+              "options": [
+                "Through monthly interest payments on their money",
+                "Through an exit: a sale or a stock-market listing",
+                "Through dividends paid from the first year",
+                "The company must repay them after five years"
+              ],
+              "answer": 1,
+              "explanation": "Startups rarely pay dividends; they reinvest everything in growth. Without an exit, investors' shares are hard to sell."
+            },
+            {
+              "question": "True or false: a startup that has raised a very large round is sure to succeed.",
+              "options": [
+                "True, if top VC funds took part",
+                "False — many well-funded startups fail",
+                "True, investors only fund likely winners",
+                "False, but only in hardware startups"
+              ],
+              "answer": 1,
+              "explanation": "Lots of money can delay failure, but it doesn't fix a missing market or a broken business model."
+            },
+            {
+              "question": "What is a business angel?",
+              "options": [
+                "An individual investing their own money early",
+                "A government agency that gives grants",
+                "A bank that specialises in startup loans",
+                "A fund that only buys listed shares"
+              ],
+              "answer": 0,
+              "explanation": "Angels often invest before VC funds, sometimes bringing advice and contacts as well as money."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Investors often get special rights attached to their shares",
+                "Each funding round usually sets a new valuation",
+                "Startup shares can usually be sold easily at any time, like listed shares",
+                "Startup shares are illiquid until an exit"
+              ],
+              "answer": 2,
+              "explanation": "There's no daily market for private company shares; selling before an exit is often difficult or restricted."
+            }
+          ]
+        },
+        {
+          "name": "Pre-money & post-money",
+          "subtitle": "What a startup is 'worth'",
+          "minutes": 7,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Two valuations",
+              "body": "Pre-money valuation is the company's value before new money comes in. Post-money = pre-money + the new investment."
+            },
+            {
+              "title": "Who owns what",
+              "body": "The new investor's stake = investment ÷ post-money valuation. For example, 1M CHF into a 4M pre-money gives 1M ÷ 5M = 20%."
+            },
+            {
+              "title": "A price, not a certainty",
+              "body": "A valuation is what investors agreed to pay at that moment. It can go up, or down in a later 'down round'."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A startup raises 1M CHF at a 4M CHF pre-money valuation. What stake does the new investor get?",
+              "options": [
+                "10%",
+                "4%",
+                "25%",
+                "20%"
+              ],
+              "answer": 3,
+              "explanation": "Post-money = 4M + 1M = 5M, and 1M ÷ 5M = 20%. 25% wrongly divides by the pre-money valuation."
+            },
+            {
+              "question": "An investor pays 2M CHF for 10% of a startup. What are the post-money and pre-money valuations?",
+              "options": [
+                "20M CHF post-money, 18M CHF pre-money",
+                "2M CHF post-money, 0 CHF pre-money",
+                "10M CHF post-money, 8M CHF pre-money",
+                "20M CHF pre-money, 22M CHF post-money"
+              ],
+              "answer": 0,
+              "explanation": "2M ÷ 10% = 20M post-money; subtracting the new 2M gives 18M pre-money."
+            },
+            {
+              "question": "What happens in a 'down round'?",
+              "options": [
+                "The company is sold to a larger competitor",
+                "The number of shares is cut in half",
+                "Investors get their original money back",
+                "It raises money at a lower valuation than before"
+              ],
+              "answer": 3,
+              "explanation": "Down rounds signal that expectations have fallen, and they usually dilute existing shareholders more heavily."
+            },
+            {
+              "question": "True or false: a startup valued at 50M CHF has 50M CHF in the bank.",
+              "options": [
+                "True, right after a funding round",
+                "False, it always has more than that",
+                "True, the valuation equals its cash",
+                "False — valuation isn't cash"
+              ],
+              "answer": 3,
+              "explanation": "A valuation reflects expectations about future value. The cash is only what investors actually put in, minus what's been spent."
+            },
+            {
+              "question": "Offer A invests 2M CHF at an 8M pre-money; offer B invests 2M CHF at a 6M pre-money. All else equal, which leaves the founders with more ownership?",
+              "options": [
+                "Offer A — the investor gets 20% instead of 25%",
+                "Offer B, because lower valuations favour founders",
+                "Both — 2M is 2M",
+                "Impossible to compare"
+              ],
+              "answer": 0,
+              "explanation": "A: 2 ÷ 10 = 20%; B: 2 ÷ 8 = 25%. In practice, other terms in the deal matter too."
+            }
+          ]
+        },
+        {
+          "name": "Dilution",
+          "subtitle": "Smaller slices of a bigger cake",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "What is dilution?",
+              "body": "When a company issues new shares, existing shareholders own a smaller percentage. Their stake can still be worth more if the valuation grows."
+            },
+            {
+              "title": "Round after round",
+              "body": "Dilution compounds: a founder with 60% who gives up 20% in a round keeps 60% × 0.8 = 48%."
+            },
+            {
+              "title": "Option pools",
+              "body": "Startups often reserve shares for future employees (an option pool), which also dilutes existing holders."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A founder owns 60%. A new round issues shares equal to 20% of the company afterwards. What does the founder own now?",
+              "options": [
+                "48%",
+                "40%",
+                "50%",
+                "60%"
+              ],
+              "answer": 0,
+              "explanation": "60% × (1 − 0.20) = 48%. 40% wrongly subtracts 20 percentage points instead of 20% of the stake."
+            },
+            {
+              "question": "A founder owns 50%. The seed round dilutes everyone by 20%, then Series A by 15%. What does the founder own after both?",
+              "options": [
+                "40%",
+                "15%",
+                "34%",
+                "42.5%"
+              ],
+              "answer": 2,
+              "explanation": "50% × 0.80 × 0.85 = 34%. 15% subtracts the percentages directly, which is how dilution does NOT work."
+            },
+            {
+              "question": "True or false: dilution always makes a founder poorer.",
+              "options": [
+                "True, unless there's no new round",
+                "False — the slice can be worth more",
+                "True, a smaller percentage means less money",
+                "False, dilution only affects the investors"
+              ],
+              "answer": 1,
+              "explanation": "50% of a 2M company is 1M; 40% of a 10M company is 4M. What matters is the value of the slice."
+            },
+            {
+              "question": "Why do startups create an employee option pool?",
+              "options": [
+                "To attract staff with a stake in success",
+                "To pay back early investors over time",
+                "To lower the founders' tax bill",
+                "To protect founders from any dilution"
+              ],
+              "answer": 0,
+              "explanation": "Options let early-stage companies compete for talent despite paying lower salaries — at the cost of some dilution."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Once you own 10% of a startup, that percentage is fixed forever",
+                "Some investors negotiate the right to keep their stake by investing again",
+                "Dilution can be worth it if the new money creates enough value",
+                "New rounds usually dilute existing shareholders"
+              ],
+              "answer": 0,
+              "explanation": "Percentages change with every new share issue; 'pro-rata' rights let some investors buy in again to keep their share."
+            }
+          ]
+        },
+        {
+          "name": "Why startups fail",
+          "subtitle": "The odds behind the headlines",
+          "minutes": 6,
+          "xp": 60,
+          "cards": [
+            {
+              "title": "Most don't make it",
+              "body": "Most startups fail or return little to their investors. Building a new business under uncertainty is hard, even with a strong team."
+            },
+            {
+              "title": "Common reasons",
+              "body": "Frequent causes include no real market need, running out of cash, competition, a weak business model and team problems."
+            },
+            {
+              "title": "Survivorship bias",
+              "body": "We hear about famous successes, not the thousands that quietly closed. That makes startup success look far more common than it is."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "Which is among the most frequently cited reasons startups fail?",
+              "options": [
+                "They didn't have a patent",
+                "The founders were too young",
+                "They launched before the product was perfect",
+                "There wasn't enough real demand for the product"
+              ],
+              "answer": 3,
+              "explanation": "Building something people don't need is a classic failure. Launching early and imperfect is often a deliberate strategy to learn faster."
+            },
+            {
+              "question": "A startup has 600'000 CHF in the bank and spends 50'000 CHF more each month than it earns. What is its 'runway'?",
+              "options": [
+                "12 months",
+                "50 months",
+                "Unlimited, as long as it has customers",
+                "6 months"
+              ],
+              "answer": 0,
+              "explanation": "600'000 ÷ 50'000 = 12 months before the cash runs out, unless it cuts costs, grows revenue or raises more money."
+            },
+            {
+              "question": "True or false: some famous founders dropped out of university and succeeded, so dropping out increases your chance of success.",
+              "options": [
+                "True, these famous examples prove it",
+                "False — that's survivorship bias",
+                "False, because a degree guarantees success",
+                "True, but only for tech startups"
+              ],
+              "answer": 1,
+              "explanation": "Looking only at winners hides the base rate. A few memorable stories don't show what's typical."
+            },
+            {
+              "question": "A startup is growing users fast but loses money on every customer. Why can this be dangerous?",
+              "options": [
+                "Investors require startups to lose money",
+                "Losses always turn into profits at scale",
+                "Faster growth can mean faster cash burn",
+                "It's never a problem while users are growing"
+              ],
+              "answer": 2,
+              "explanation": "If each customer costs more than they bring in, scale magnifies losses. Growth only helps once 'unit economics' work."
+            },
+            {
+              "question": "Which statement is FALSE?",
+              "options": [
+                "Running out of cash is a common cause of failure",
+                "A startup with a strong team cannot fail",
+                "Many startups change their product along the way (a 'pivot')",
+                "Timing can matter a lot for a startup's success"
+              ],
+              "answer": 1,
+              "explanation": "A strong team improves the odds but can't remove market, timing and funding risks."
+            }
+          ]
+        },
+        {
+          "name": "How VC funds make money",
+          "subtitle": "The power law",
+          "minutes": 7,
+          "xp": 70,
+          "cards": [
+            {
+              "title": "The power law",
+              "body": "VC returns are highly concentrated: a few big winners usually make up most of a fund's gains, while many investments return little or nothing."
+            },
+            {
+              "title": "The fund model",
+              "body": "Investors (limited partners) commit money to a fund for about 10 years. The managers (general partners) usually charge a yearly management fee plus a share of profits, often around 20% ('carried interest')."
+            },
+            {
+              "title": "Why VCs swing big",
+              "body": "Because most bets fail, each investment needs the potential to return the whole fund. Modest successes can't make up for many losses."
+            }
+          ],
+          "quiz": [
+            {
+              "question": "A fund invests 1M CHF in each of 10 startups. Seven return nothing, two return 1M CHF each, and one returns 30M CHF. What multiple of its money does the fund make before fees?",
+              "options": [
+                "2.0×",
+                "0.3×",
+                "3.2×",
+                "3.0×"
+              ],
+              "answer": 2,
+              "explanation": "(0 + 2 + 30) ÷ 10 = 3.2× — despite 7 failures out of 10. 3.0× counts only the big winner and forgets the two 1M returns."
+            },
+            {
+              "question": "In that same fund, roughly what share of all the money returned came from the single winner?",
+              "options": [
+                "About 94%",
+                "About 30%",
+                "About 50%",
+                "About 10%"
+              ],
+              "answer": 0,
+              "explanation": "30M of the 32M returned ≈ 94%. That's the power law: one outlier drives almost the whole result."
+            },
+            {
+              "question": "True or false: a VC fund with 7 failures out of 10 investments must be a bad fund.",
+              "options": [
+                "True, a good fund avoids most failures",
+                "True, unless the failed bets were cheap",
+                "False — one big winner can carry the fund",
+                "False, failures simply don't count in VC"
+              ],
+              "answer": 2,
+              "explanation": "Failure rates alone say little. What matters is whether the winners are big enough to cover the losses many times over."
+            },
+            {
+              "question": "Why do VCs often look for startups that could become very large, rather than solid small businesses?",
+              "options": [
+                "Because large companies never fail",
+                "Because a few huge winners must cover the many losses",
+                "Because small businesses can't legally raise money",
+                "Because VCs are paid per company"
+              ],
+              "answer": 1,
+              "explanation": "A solid business that returns 2× can't offset several zeros. VCs need outliers that can return the whole fund."
+            },
+            {
+              "question": "What is 'carried interest' in a VC fund?",
+              "options": [
+                "Interest charged on loans to startups",
+                "The managers' share of profits, often ~20%",
+                "A yearly fee on the money committed",
+                "Interest earned on the fund's spare cash"
+              ],
+              "answer": 1,
+              "explanation": "The yearly fee is the management fee; carried interest is paid only out of profits, aligning managers with investors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

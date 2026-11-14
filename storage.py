@@ -58,7 +58,9 @@ class SupabaseStore:
     def __init__(self, url, key):
         self.endpoint = url.rstrip("/") + "/rest/v1/profiles"
         self.session = requests.Session()
-        self.session.headers.update({"apikey": key, "Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+        self.session.headers.update({"apikey": key, "Content-Type": "application/json"})
+        if key.startswith("eyJ"):             # legacy service_role key (a JWT) also goes in Authorization;
+            self.session.headers["Authorization"] = f"Bearer {key}"   # new sb_secret_ keys use apikey only
 
     def _get(self, slug, columns):
         r = self.session.get(self.endpoint, params={"slug": f"eq.{slug}", "select": columns}, timeout=self.TIMEOUT)

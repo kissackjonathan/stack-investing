@@ -371,7 +371,7 @@ UNITS, LESSONS = load_content(CONTENT_FILE.stat().st_mtime)
 
 RETURN_NOTE = ("For reference: the MSCI World index returned about 8.5% per year on average in USD over the last 20 years "
                "(2006–2025, net dividends reinvested), with big swings along the way (e.g. −41% in 2008, +30% in 2009). "
-               "For a CHF investor the return was lower because of the strong franc. Past performance does not predict future returns.")
+               "Measured in euros or francs the result differs, because exchange rates move too. Past performance does not predict future returns.")
 DISCLAIMER = "STACK is an educational prototype. It does not provide personal financial advice, recommend investments, or connect to a broker. All examples are for learning only."
 
 # Used as the daily challenge until the first level is completed.
@@ -414,7 +414,7 @@ DEFAULT_PROGRESS = {
     "streak": {"count": 0, "last_day": None},
     "lab_visited": False,
     "portfolio": {},          # virtual-money simulator (see portfolio.py); {} until opened
-    "display_currency": "CHF",  # currency used to show Portfolio amounts (values are stored in CHF)
+    "display_currency": "EUR",  # currency used to show Portfolio amounts (values are stored in CHF)
 }
 
 
@@ -666,8 +666,9 @@ def has_perfect_score():
     return any(P["best_scores"].get(str(i), 0) == len(l["quiz"]) for i, l in enumerate(LESSONS))
 
 
-def chf(x):
-    return "CHF " + f"{x:,.0f}".replace(",", "'")
+def eur(x):
+    """Money lab amounts (illustrative, always in euros)."""
+    return "EUR " + f"{x:,.0f}".replace(",", "'")
 
 
 # ---------------------------------------------------------------------------
@@ -1139,10 +1140,10 @@ def lab_page():
     left, right = st.columns([1, 1.7], gap="large")
     with left:
         with st.container(key="card_lab"):
-            start = st.number_input("Starting amount (CHF)", min_value=0, value=1_000, step=100)
-            st.caption(f"= {chf(start)}")
-            monthly = st.number_input("Monthly saving (CHF)", min_value=0, value=100, step=50)
-            st.caption(f"= {chf(monthly)} per month")
+            start = st.number_input("Starting amount (EUR)", min_value=0, value=1_000, step=100)
+            st.caption(f"= {eur(start)}")
+            monthly = st.number_input("Monthly saving (EUR)", min_value=0, value=100, step=50)
+            st.caption(f"= {eur(monthly)} per month")
             rate = st.number_input("Assumed annual return (%)", min_value=-20.0, value=7.0, step=0.1, format="%.1f")
             st.markdown(f'<div class="lab-note">{esc(RETURN_NOTE)}</div>', unsafe_allow_html=True)
             years = st.number_input("Duration (years)", min_value=1, value=20, step=1)
@@ -1172,10 +1173,10 @@ def lab_page():
         fig = go.Figure()
         fig.add_trace(go.Scatter(x=xs, y=paid_in, name="Total paid in", mode="lines",
                                  line=dict(color="#5b8fcc", width=2), fill="tozeroy", fillcolor="rgba(91,143,204,.18)",
-                                 hovertemplate="%{y:,.0f} CHF<extra>Total paid in</extra>"))
+                                 hovertemplate="%{y:,.0f} EUR<extra>Total paid in</extra>"))
         fig.add_trace(go.Scatter(x=xs, y=values, name="Invested + growth", mode="lines",
                                  line=dict(color="#2fa862", width=2), fill="tonexty", fillcolor="rgba(47,168,98,.22)",
-                                 hovertemplate="%{y:,.0f} CHF<extra>Invested + growth</extra>"))
+                                 hovertemplate="%{y:,.0f} EUR<extra>Invested + growth</extra>"))
         for y, label in ((values[-1], "Invested + growth"), (paid_in[-1], "Total paid in")):
             fig.add_annotation(x=xs[-1], y=y, text=label, showarrow=False, xanchor="right", yanchor="bottom",
                                font=dict(color="#d3dbd5", size=12))
@@ -1187,12 +1188,12 @@ def lab_page():
             hoverlabel=dict(bgcolor="#111914", bordercolor="#2f4536", font=dict(color="#f4f7f4")),
         )
         fig.update_xaxes(title="Years", gridcolor="#1a261e", zeroline=False, linecolor="#25352a")
-        fig.update_yaxes(title=None, gridcolor="#1a261e", zeroline=False, separatethousands=True, ticksuffix=" CHF")
+        fig.update_yaxes(title=None, gridcolor="#1a261e", zeroline=False, separatethousands=True, ticksuffix=" EUR")
         st.plotly_chart(fig, config={"displayModeBar": False}, width="stretch")
 
         m1, m2 = st.columns(2)
-        m1.metric("Final value (illustrative)", chf(balance), f"{chf(paid)} paid in", delta_color="off")
-        m2.metric("Due to growth", chf(growth), f"{share:.0f}% of final value", delta_color="off")
+        m1.metric("Final value (illustrative)", eur(balance), f"{eur(paid)} paid in", delta_color="off")
+        m2.metric("Due to growth", eur(growth), f"{share:.0f}% of final value", delta_color="off")
     st.info("This simulation is illustrative only. It assumes a constant return every year, which never happens in reality: "
             "actual returns vary, can be negative, and fees, taxes and inflation are not included. It is not a forecast or advice.")
 
@@ -1320,13 +1321,13 @@ DISPLAY_CURRENCIES = {"CHF": "CHF", "USD": "USD $", "EUR": "EUR €", "GBP": "GB
 
 def disp():
     """Display currency code (falls back to CHF if its FX rate cannot be loaded)."""
-    code = P.get("display_currency", "CHF")
+    code = P.get("display_currency", "EUR")
     return code if code in DISPLAY_CURRENCIES and to_disp_rate(code) else "CHF"
 
 
 def to_disp_rate(code=None):
     """Multiply a CHF amount by this to get the display currency (Yahoo rate, 5-min cache)."""
-    code = code or P.get("display_currency", "CHF")
+    code = code or P.get("display_currency", "EUR")
     if code == "CHF":
         return 1.0
     rate = md.fx_now((code,)).get(code, (None, None))[0]      # CHF per 1 unit of `code`
@@ -1351,7 +1352,7 @@ def set_display_currency(key):
 
 
 def currency_select(key, label="Display currency", label_visibility="visible", width="stretch"):
-    S[key] = P.get("display_currency", "CHF")
+    S[key] = P.get("display_currency", "EUR")
     st.selectbox(label, list(DISPLAY_CURRENCIES), format_func=DISPLAY_CURRENCIES.get, key=key, width=width,
                  on_change=set_display_currency, args=(key,), label_visibility=label_visibility,
                  help="Portfolio amounts are stored in CHF and shown in this currency at today's Yahoo exchange rate.")

@@ -1268,7 +1268,7 @@ def profile_page():
         c, _ = st.columns([1, 1.6])
         with c:
             currency_select("prof_ccy")
-        st.caption("Used for every amount on the Portfolio page. The simulator keeps its books in CHF.")
+        st.caption("Used for every amount on the Portfolio page.")
     st.write("")
     with st.container(key="card_reset"):
         st.markdown("**Reset progress**  \n<span class='muted'>Erase XP, lessons, scores, streak, badges and the virtual portfolio.</span>", unsafe_allow_html=True)
@@ -1314,7 +1314,7 @@ def pf():
     return P["portfolio"]
 
 
-DISPLAY_CURRENCIES = {"CHF": "CHF", "USD": "USD $", "EUR": "EUR €", "GBP": "GBP £", "JPY": "JPY ¥", "CNY": "CNY ¥",
+DISPLAY_CURRENCIES = {"EUR": "EUR €", "CHF": "CHF", "USD": "USD $", "GBP": "GBP £", "JPY": "JPY ¥", "CNY": "CNY ¥",
                       "HKD": "HKD HK$", "CAD": "CAD C$", "AUD": "AUD A$", "SEK": "SEK kr", "NOK": "NOK kr",
                       "SGD": "SGD S$", "INR": "INR ₹"}
 
@@ -1574,7 +1574,7 @@ def pf_onboarding():
                     'Prices follow the real markets, but no real money is ever involved.</p>', unsafe_allow_html=True)
         amount = st.number_input(f"Starting amount ({disp()})", min_value=0, value=10_000, step=1_000, key="pf_start_amt")
         label = money(from_disp(amount), dec=0)
-        st.caption(f"= {label}" + (f" (≈ {money_chf(from_disp(amount), 0)} — the simulator keeps its books in CHF)" if disp() != "CHF" else ""))
+        st.caption(f"= {label}")
         st.button(f"Start with {label}", type="primary", on_click=pf_start, args=(from_disp(amount),), key="pf_start_btn")
 
 
@@ -1686,13 +1686,10 @@ def pf_overview():
         st.plotly_chart(fig, config={"displayModeBar": False}, width="stretch")
         line = f"Time-weighted return over this period: **{pfm.twr(hist, since) * 100:+.2f}%**"
         if compare and bench is not None:
-            line += f" · MSCI World in CHF: **{pfm.bench_return(bench, since) * 100:+.2f}%**"
+            line += f" · MSCI World: **{pfm.bench_return(bench, since) * 100:+.2f}%**"
         st.markdown(line)
         if compare:
-            st.caption("Comparison: the same deposits and withdrawals, on the same days, invested in the iShares MSCI World ETF (URTH), converted to CHF.")
-        if D != "CHF":
-            st.caption(f"The simulator keeps its books in CHF. Amounts are shown in {D} at today's rate "
-                       f"(1 {D} = {1 / k:.4f} CHF), so returns (%) are CHF returns.")
+            st.caption("Comparison: the same deposits and withdrawals, on the same days, invested in the iShares MSCI World ETF (URTH).")
         if len(hist) < 3:
             st.caption("The chart fills in day by day: history is rebuilt from your transactions and daily closing prices.")
 
@@ -1708,7 +1705,7 @@ def pf_overview():
                        "sector": stock_info.get(r["ticker"], {}).get("sector")} for r in rows if r["cls"] == "stock"]
         d1, d2 = st.columns(2)
         d1.plotly_chart(donut("By asset class", pfm.allocation(rows, cash_chf, "cls_label", "Cash")), config={"displayModeBar": False}, width="stretch")
-        d2.plotly_chart(donut("By currency of the assets", pfm.allocation(rows, cash_chf, "currency", "CHF")), config={"displayModeBar": False}, width="stretch")
+        d2.plotly_chart(donut("By currency of the assets", pfm.allocation(rows, cash_chf, "currency", disp())), config={"displayModeBar": False}, width="stretch")
         if stock_rows:
             d3, d4 = st.columns(2)
             d3.plotly_chart(donut("Stocks by country", pfm.allocation(stock_rows, 0, "country")), config={"displayModeBar": False}, width="stretch")
@@ -1797,8 +1794,8 @@ def pf_asset_page():
     st.button("★ In watchlist" if watched else "☆ Add to watchlist", key="pf_watch_toggle", on_click=pf_toggle_watch, args=(a,))
     if not is_open:
         st.markdown('<span class="pill">Market closed — last close price</span>', unsafe_allow_html=True)
-    if a["currency"] != "CHF":
-        st.caption(f"1 {a['currency']} = {rate:.4f} CHF (Yahoo FX).")
+    if a["currency"] != disp():
+        st.caption(f"1 {a['currency']} = {rate * to_disp_rate(disp()):.4f} {disp()} (Yahoo FX).")
     if a["cls"] == "commodity":
         st.info(COMMODITY_NOTE)
 

@@ -27,7 +27,7 @@
           ],
           "quiz": [
             {
-              "question": "Marc keeps 20'000 CHF in a savings account earning 0.5% a year while inflation runs at 2%. What is happening to his money in real terms?",
+              "question": "Marc keeps €20,000 in a savings account earning 0.5% a year while inflation runs at 2%. What is happening to his money in real terms?",
               "options": [
                 "It is growing, just slowly",
                 "It is safe from any loss because the balance never falls",
@@ -35,7 +35,7 @@
                 "It is slowly losing purchasing power"
               ],
               "answer": 3,
-              "explanation": "His balance rises 0.5% a year but prices rise 2%, so each franc buys a little less. A balance that never falls in francs can still lose value in what it can buy."
+              "explanation": "His balance rises 0.5% a year but prices rise 2%, so each euro buys a little less. A balance that never falls in euros can still lose value in what it can buy."
             },
             {
               "question": "Which of these statements is FALSE?",
@@ -49,15 +49,15 @@
               "explanation": "A long rising streak says nothing reliable about next year: past performance doesn't guarantee future results. The other three statements are true."
             },
             {
-              "question": "You invest 1'000 CHF at 7% a year and reinvest all returns for 10 years. Roughly how much do you end up with?",
+              "question": "You invest €1,000 at 7% a year and reinvest all returns for 10 years. Roughly how much do you end up with?",
               "options": [
-                "About 1'700 CHF",
-                "About 2'500 CHF",
-                "About 1'070 CHF",
-                "About 1'970 CHF"
+                "About €1,700",
+                "About €2,500",
+                "About €1,070",
+                "About €1,970"
               ],
               "answer": 3,
-              "explanation": "1'000 × 1.07¹⁰ ≈ 1'967 CHF, because returns themselves earn returns. 1'700 CHF is simple interest (7% × 10 years), which ignores compounding."
+              "explanation": "1,000 × 1.07¹⁰ ≈ €1,967, because returns themselves earn returns. €1,700 is simple interest (7% × 10 years), which ignores compounding."
             },
             {
               "question": "True or false: if you never sell an investment that has dropped, you haven't really lost money.",
@@ -123,7 +123,7 @@
                 "Down 50%"
               ],
               "answer": 2,
-              "explanation": "100 → 150 → 75 CHF. The −50% applies to a bigger number than the +50% did, so equal percentage moves don't cancel out."
+              "explanation": "100 → 150 → €75. The −50% applies to a bigger number than the +50% did, so equal percentage moves don't cancel out."
             },
             {
               "question": "Which of these statements is FALSE?",
@@ -156,7 +156,7 @@
                 "A market crash wiping out the balance"
               ],
               "answer": 2,
-              "explanation": "The CHF balance is stable, but inflation quietly shrinks what it buys: at 2% a year for 20 years, 100 CHF buys only what about 67 CHF buys today. Crashes and daily swings are share-market risks."
+              "explanation": "The euro balance is stable, but inflation quietly shrinks what it buys: at 2% a year for 20 years, €100 buys only what about €67 buys today. Crashes and daily swings are share-market risks."
             }
           ]
         },
@@ -225,15 +225,15 @@
               "explanation": "Many ETFs track narrow sectors, themes or single countries, and some use leverage. The label 'ETF' says nothing about how broad the contents are."
             },
             {
-              "question": "You hold 20'000 CHF in a fund with ongoing costs of 1.2% a year. Roughly how much do costs take in one year?",
+              "question": "You hold €20,000 in a fund with ongoing costs of 1.2% a year. Roughly how much do costs take in one year?",
               "options": [
-                "About 240 CHF",
-                "About 24 CHF",
+                "About €240",
+                "About €24",
                 "Nothing, unless you sell",
-                "About 1'200 CHF"
+                "About €1,200"
               ],
               "answer": 0,
-              "explanation": "20'000 × 1.2% = 240 CHF. Costs are deducted from the fund's value continuously, so you pay them even if you never sell."
+              "explanation": "20,000 × 1.2% = €240. Costs are deducted from the fund's value continuously, so you pay them even if you never sell."
             }
           ]
         },
@@ -280,10 +280,10 @@
               "explanation": "Assets driven by different factors diversify more. Same-index funds and same-sector companies tend to move together, so combining them adds little."
             },
             {
-              "question": "True or false: if you hold 1'000 different shares, you can't lose money in a market crash.",
+              "question": "True or false: if you hold 1,000 different shares, you can't lose money in a market crash.",
               "options": [
                 "True — with so many companies, the losses cancel each other out",
-                "False, because 1'000 shares is still not enough to be safe",
+                "False, because 1,000 shares is still not enough to be safe",
                 "False — a market-wide fall hits most shares at once",
                 "True, as long as the companies come from different countries"
               ],
@@ -368,15 +368,15 @@
               "explanation": "Job losses and recessions often arrive together with market falls, and you don't want to be forced to sell low. Shares don't always fall short-term — the point is that you can't know."
             },
             {
-              "question": "Investing 200 CHF a month for 30 years means paying in 72'000 CHF. At an assumed constant 5% a year, the end value is roughly…",
+              "question": "Investing €200 a month for 30 years means paying in €72,000. At an assumed constant 5% a year, the end value is roughly…",
               "options": [
-                "About 108'000 CHF",
-                "About 300'000 CHF",
-                "About 166'000 CHF",
-                "About 75'600 CHF"
+                "About €108,000",
+                "About €300,000",
+                "About €166,000",
+                "About €75,600"
               ],
               "answer": 2,
-              "explanation": "Each deposit compounds for the time it stays invested, giving ≈166'000 CHF — more than double what was paid in. 75'600 CHF applies 5% only once, ignoring decades of compounding. Real returns are never constant."
+              "explanation": "Each deposit compounds for the time it stays invested, giving ≈€166,000 — more than double what was paid in. €75,600 applies 5% only once, ignoring decades of compounding. Real returns are never constant."
             },
             {
               "question": "Which statement is FALSE?",
@@ -419,7 +419,7 @@
           ],
           "quiz": [
             {
-              "question": "A company pays a dividend of 2 CHF per share and its share price is 80 CHF. What is its dividend yield?",
+              "question": "A company pays a dividend of €2 per share and its share price is €80. What is its dividend yield?",
               "options": [
                 "2%",
                 "40%",
@@ -427,7 +427,7 @@
                 "4%"
               ],
               "answer": 2,
-              "explanation": "Dividend yield = dividend ÷ price = 2 ÷ 80 = 2.5%. '2%' mixes up the dividend amount in CHF with a percentage."
+              "explanation": "Dividend yield = dividend ÷ price = 2 ÷ 80 = 2.5%. '2%' mixes up the dividend amount in euros with a percentage."
             },
             {
               "question": "A company goes bankrupt. In what order are investors usually repaid?",
@@ -463,7 +463,7 @@
               "explanation": "Many once-dominant companies have collapsed or shrunk dramatically. Size and fame are no guarantee."
             },
             {
-              "question": "Tom sees a share that fell from 100 CHF to 30 CHF and says: \"It can't go much lower — it's a bargain.\" What's the flaw?",
+              "question": "Tom sees a share that fell from €100 to €30 and says: \"It can't go much lower — it's a bargain.\" What's the flaw?",
               "options": [
                 "Past prices set no floor — it can keep falling",
                 "None — shares nearly always return to their previous high",
@@ -471,7 +471,7 @@
                 "Regulators halt trading before a share can fall much further"
               ],
               "answer": 0,
-              "explanation": "Past prices set no floor; a 70% fall may reflect real problems. Anchoring on the old 100 CHF price is a common bias."
+              "explanation": "Past prices set no floor; a 70% fall may reflect real problems. Anchoring on the old €100 price is a common bias."
             }
           ]
         },
@@ -518,7 +518,7 @@
               "explanation": "If you hold to maturity and the issuer pays, you get the face value — but before that the price can fall, and defaults do happen, even for some governments."
             },
             {
-              "question": "A bond pays a 2 CHF annual coupon on a 100 CHF face value, but trades at 95 CHF. What is its current yield (coupon ÷ price)?",
+              "question": "A bond pays a €2 annual coupon on a €100 face value, but trades at €95. What is its current yield (coupon ÷ price)?",
               "options": [
                 "About 2.1%",
                 "Exactly 2%",
@@ -560,7 +560,7 @@
           "cards": [
             {
               "title": "Cash is an asset too",
-              "body": "Cash includes bank accounts and money-market products. Its value in CHF is stable, which makes it useful for emergencies and short-term needs."
+              "body": "Cash includes bank accounts and money-market products. Its value in euros is stable, which makes it useful for emergencies and short-term needs."
             },
             {
               "title": "The hidden cost: inflation",
@@ -595,18 +595,18 @@
               "explanation": "Cash's strength is stability and access. It isn't risk-free — inflation erodes it — and historically it has earned less than shares over long periods."
             },
             {
-              "question": "Inflation averages 3% a year for 10 years. 1'000 CHF in cash earning nothing will then buy roughly what ___ buys today.",
+              "question": "Inflation averages 3% a year for 10 years. €1,000 in cash earning nothing will then buy roughly what ___ buys today.",
               "options": [
-                "About 744 CHF",
-                "About 970 CHF",
-                "About 700 CHF",
-                "Still 1'000 CHF"
+                "About €744",
+                "About €970",
+                "About €700",
+                "Still €1,000"
               ],
               "answer": 0,
-              "explanation": "1'000 ÷ 1.03¹⁰ ≈ 744 CHF. 700 CHF simply subtracts 3% × 10 years, which ignores that inflation compounds."
+              "explanation": "1,000 ÷ 1.03¹⁰ ≈ €744. €700 simply subtracts 3% × 10 years, which ignores that inflation compounds."
             },
             {
-              "question": "Inès keeps 60'000 CHF in her current account 'just in case'. A 6-month emergency fund for her would be about 15'000 CHF. What trade-off is she making?",
+              "question": "Inès keeps €60,000 in her current account 'just in case'. A 6-month emergency fund for her would be about €15,000. What trade-off is she making?",
               "options": [
                 "None — holding more cash is always the most sensible choice",
                 "High safety, but the surplus loses purchasing power",
@@ -625,7 +625,7 @@
                 "A savings account's rate is fixed for life"
               ],
               "answer": 3,
-              "explanation": "Most savings rates are variable and follow market rates up and down. Deposit protection exists but is capped (in Switzerland, up to 100'000 CHF per client per bank)."
+              "explanation": "Most savings rates are variable and follow market rates up and down. Deposit protection exists but is capped (in the EU, up to €100,000 per depositor per bank)."
             }
           ]
         },
@@ -650,18 +650,18 @@
           ],
           "quiz": [
             {
-              "question": "You buy a 500'000 CHF apartment with 100'000 CHF of your own money and a 400'000 CHF mortgage. The price falls 10%. Ignoring costs, what happens to your own money?",
+              "question": "You buy a €500,000 apartment with €100,000 of your own money and a €400,000 mortgage. The price falls 10%. Ignoring costs, what happens to your own money?",
               "options": [
                 "Nothing — the bank takes the loss",
                 "It falls 10%",
-                "It falls 50%, to 50'000 CHF",
+                "It falls 50%, to €50,000",
                 "It falls 40%"
               ],
               "answer": 2,
-              "explanation": "The apartment is now worth 450'000 CHF, but you still owe 400'000 CHF, leaving 50'000 CHF. Leverage turned a 10% price fall into a 50% loss of your equity."
+              "explanation": "The apartment is now worth €450,000, but you still owe €400,000, leaving €50,000. Leverage turned a 10% price fall into a 50% loss of your equity."
             },
             {
-              "question": "An apartment costs 500'000 CHF and earns 15'000 CHF of rent per year after costs. What is its net rental yield?",
+              "question": "An apartment costs €500,000 and earns €15,000 of rent per year after costs. What is its net rental yield?",
               "options": [
                 "0.3%",
                 "15%",
@@ -669,7 +669,7 @@
                 "33%"
               ],
               "answer": 2,
-              "explanation": "15'000 ÷ 500'000 = 3%. '33%' divides the wrong way round."
+              "explanation": "15,000 ÷ 500,000 = 3%. '33%' divides the wrong way round."
             },
             {
               "question": "What's a key drawback of owning one property directly compared with a listed real-estate fund?",
@@ -691,7 +691,7 @@
                 "True, land is limited, so prices must rise over time"
               ],
               "answer": 1,
-              "explanation": "Scarcity doesn't guarantee rising prices. Several countries have had long property slumps — including Switzerland in the 1990s."
+              "explanation": "Scarcity doesn't guarantee rising prices. Several countries have had long property slumps — including Spain and Ireland after 2008."
             },
             {
               "question": "Which statement about listed real-estate funds is FALSE?",
@@ -812,7 +812,7 @@
                 "+400%"
               ],
               "answer": 3,
-              "explanation": "100 → 20 CHF; getting back to 100 CHF means multiplying by 5, a +400% gain. Losses need much bigger gains to recover."
+              "explanation": "100 → €20; getting back to €100 means multiplying by 5, a +400% gain. Losses need much bigger gains to recover."
             },
             {
               "question": "You keep crypto on an online platform that goes bankrupt. What is the main risk?",
@@ -965,7 +965,7 @@
           ],
           "quiz": [
             {
-              "question": "A market-value-weighted index has three companies worth 300, 100 and 100 billion CHF. What weight does the largest have?",
+              "question": "A market-value-weighted index has three companies worth 300, 100 and €100 billion. What weight does the largest have?",
               "options": [
                 "33%",
                 "50%",
@@ -1053,7 +1053,7 @@
               "explanation": "If the swap bank fails, the fund relies on the collateral it holds. Rules limit this exposure, but don't eliminate it."
             },
             {
-              "question": "A physical ETF tracks an index of 3'000 small companies but holds only 1'200 of them. What is this called?",
+              "question": "A physical ETF tracks an index of 3,000 small companies but holds only 1,200 of them. What is this called?",
               "options": [
                 "Synthetic replication via a swap",
                 "Active stock-picking by the manager",
@@ -1119,26 +1119,26 @@
           ],
           "quiz": [
             {
-              "question": "A fund costs 1.5% a year instead of 0.2%. On 10'000 CHF growing at 5% a year before costs for 30 years, roughly how much less do you end up with?",
+              "question": "A fund costs 1.5% a year instead of 0.2%. On €10,000 growing at 5% a year before costs for 30 years, roughly how much less do you end up with?",
               "options": [
-                "About 1'300 CHF less",
-                "About 3'900 CHF less",
-                "About 390 CHF less",
-                "About 12'700 CHF less"
+                "About €1,300 less",
+                "About €3,900 less",
+                "About €390 less",
+                "About €12,700 less"
               ],
               "answer": 3,
-              "explanation": "10'000 × 1.048³⁰ ≈ 40'800 CHF versus 10'000 × 1.035³⁰ ≈ 28'100 CHF: a gap of about 12'700 CHF. 3'900 CHF (1.3% × 30 years × 10'000) ignores that costs compound."
+              "explanation": "10,000 × 1.048³⁰ ≈ €40,800 versus 10,000 × 1.035³⁰ ≈ €28,100: a gap of about €12,700. €3,900 (1.3% × 30 years × 10,000) ignores that costs compound."
             },
             {
-              "question": "You hold 50'000 CHF in a fund with a 0.5% TER. Roughly how much do its ongoing costs take per year?",
+              "question": "You hold €50,000 in a fund with a 0.5% TER. Roughly how much do its ongoing costs take per year?",
               "options": [
-                "About 25 CHF",
+                "About €25",
                 "Nothing in years when the fund loses money",
-                "About 250 CHF",
-                "About 2'500 CHF"
+                "About €250",
+                "About €2,500"
               ],
               "answer": 2,
-              "explanation": "50'000 × 0.5% = 250 CHF. The TER is charged in losing years too, because it's a percentage of the assets, not of the gains."
+              "explanation": "50,000 × 0.5% = €250. The TER is charged in losing years too, because it's a percentage of the assets, not of the gains."
             },
             {
               "question": "True or false: a fund with a 0% TER is completely free to own.",
@@ -1163,15 +1163,15 @@
               "explanation": "Research generally finds that higher-cost funds don't outperform on average. Costs are certain; extra performance is not."
             },
             {
-              "question": "Two funds track the same index. A: TER 0.10%, but your bank charges 40 CHF per purchase. B: TER 0.25%, no purchase fee. You invest 100 CHF a month. Which costs less in the first year?",
+              "question": "Two funds track the same index. A: TER 0.10%, but your bank charges €40 per purchase. B: TER 0.25%, no purchase fee. You invest €100 a month. Which costs less in the first year?",
               "options": [
                 "It's impossible to say without past returns",
-                "Fund B — twelve 40 CHF fees dwarf the TER difference",
+                "Fund B — twelve €40 fees dwarf the TER difference",
                 "Fund A, because its TER is lower",
                 "They cost about the same"
               ],
               "answer": 1,
-              "explanation": "Fund A costs about 480 CHF in purchase fees on 1'200 CHF invested; the TER gap on such a small balance is around 1 CHF. Fixed fees matter a lot for small, regular amounts."
+              "explanation": "Fund A costs about €480 in purchase fees on €1,200 invested; the TER gap on such a small balance is around €1. Fixed fees matter a lot for small, regular amounts."
             }
           ]
         },
@@ -1365,7 +1365,7 @@
                 "+75%"
               ],
               "answer": 2,
-              "explanation": "100 → 50 CHF; doubling back to 100 CHF is a +100% gain. A +50% gain only brings it to 75 CHF."
+              "explanation": "100 → €50; doubling back to €100 is a +100% gain. A +50% gain only brings it to €75."
             },
             {
               "question": "A portfolio falls 30%. Roughly what gain is needed to recover?",
@@ -1379,15 +1379,15 @@
               "explanation": "1 ÷ 0.70 − 1 ≈ 42.9%. The gain is calculated on the smaller, post-fall amount."
             },
             {
-              "question": "A portfolio goes 100'000 → 130'000 → 91'000 → 120'000 CHF. What was its maximum drawdown?",
+              "question": "A portfolio goes 100,000 → 130,000 → 91,000 → €120,000. What was its maximum drawdown?",
               "options": [
                 "9%",
-                "None — it's back above 100'000 CHF",
+                "None — it's back above €100,000",
                 "39%",
                 "30%"
               ],
               "answer": 3,
-              "explanation": "Drawdowns are measured from the peak: (130'000 − 91'000) ÷ 130'000 = 30%. 9% wrongly measures from the starting value instead of the peak."
+              "explanation": "Drawdowns are measured from the peak: (130,000 − 91,000) ÷ 130,000 = 30%. 9% wrongly measures from the starting value instead of the peak."
             },
             {
               "question": "True or false: broad share markets have always recovered in the past, so any single share will recover too.",
@@ -1404,7 +1404,7 @@
               "question": "Before investing, Lucas says he can handle 'some ups and downs'. Which question tests his real tolerance best?",
               "options": [
                 "\"Which investment did best over the last year?\"",
-                "\"Could I stay invested if 50'000 fell to 30'000?\"",
+                "\"Could I stay invested if 50,000 fell to 30,000?\"",
                 "\"How do I make sure I never see a single loss?\"",
                 "\"What is the best return I could realistically get?\""
               ],
@@ -1522,7 +1522,7 @@
               "explanation": "She filters information to fit what she already believes. Loss aversion is about how losses feel, not which sources we read."
             },
             {
-              "question": "Ben won't sell a share that fell from 50 to 20 CHF: \"I'll sell once it's back to 50.\" Which bias is most at play?",
+              "question": "Ben won't sell a share that fell from 50 to €20: \"I'll sell once it's back to 50.\" Which bias is most at play?",
               "options": [
                 "FOMO on a possible rebound",
                 "Rational, disciplined rebalancing",
@@ -1530,7 +1530,7 @@
                 "Anchoring, plus loss aversion"
               ],
               "answer": 3,
-              "explanation": "The market doesn't know or care what Ben paid. A more useful question is whether he'd buy the share today at 20 CHF."
+              "explanation": "The market doesn't know or care what Ben paid. A more useful question is whether he'd buy the share today at €20."
             },
             {
               "question": "After three successful trades in a row, Max doubles his position sizes, convinced he 'reads the market'. Which bias?",
@@ -1659,7 +1659,7 @@
           "cards": [
             {
               "title": "What is inflation?",
-              "body": "Inflation is the general rise in prices over time. It means each franc buys a little less than before."
+              "body": "Inflation is the general rise in prices over time. It means each euro buys a little less than before."
             },
             {
               "title": "It compounds too",
@@ -1672,15 +1672,15 @@
           ],
           "quiz": [
             {
-              "question": "With 2% inflation a year for 20 years, 100 CHF will buy roughly what ___ buys today.",
+              "question": "With 2% inflation a year for 20 years, €100 will buy roughly what ___ buys today.",
               "options": [
-                "About 98 CHF",
-                "About 67 CHF",
-                "About 60 CHF",
-                "About 80 CHF"
+                "About €98",
+                "About €67",
+                "About €60",
+                "About €80"
               ],
               "answer": 1,
-              "explanation": "100 ÷ 1.02²⁰ ≈ 67 CHF. 60 CHF simply subtracts 2% × 20 years and ignores compounding."
+              "explanation": "100 ÷ 1.02²⁰ ≈ €67. €60 simply subtracts 2% × 20 years and ignores compounding."
             },
             {
               "question": "Your salary rises 3% while inflation is 5%. Your real pay changes by roughly…",
@@ -1691,7 +1691,7 @@
                 "About +8%"
               ],
               "answer": 2,
-              "explanation": "1.03 ÷ 1.05 ≈ 0.981, so about −2%. You earn more francs, but they buy less."
+              "explanation": "1.03 ÷ 1.05 ≈ 0.981, so about −2%. You earn more euros, but they buy less."
             },
             {
               "question": "Who is most directly hurt by unexpectedly high inflation?",
@@ -1702,7 +1702,7 @@
                 "Someone who owns goods whose prices are rising"
               ],
               "answer": 1,
-              "explanation": "Fixed payments lose real value when prices rise. A fixed-rate borrower is on the other side: they repay in francs that are worth less."
+              "explanation": "Fixed payments lose real value when prices rise. A fixed-rate borrower is on the other side: they repay in euros that are worth less."
             },
             {
               "question": "True or false: 0% inflation means the price of everything stays the same.",
@@ -1736,7 +1736,7 @@
           "cards": [
             {
               "title": "What central banks do",
-              "body": "Central banks, like the Swiss National Bank, set a policy interest rate to keep prices stable. Changing it influences borrowing costs across the economy."
+              "body": "Central banks, like the European Central Bank, set a policy interest rate to keep prices stable. Changing it influences borrowing costs across the economy."
             },
             {
               "title": "Raising rates",
@@ -1771,15 +1771,15 @@
               "explanation": "Existing bonds with higher coupons become more valuable when new rates fall — the inverse price–rate relationship."
             },
             {
-              "question": "Elena has a variable-rate mortgage of 400'000 CHF. Rates rise by 1 percentage point. Roughly how much more interest does she pay per year?",
+              "question": "Elena has a variable-rate mortgage of €400,000. Rates rise by 1 percentage point. Roughly how much more interest does she pay per year?",
               "options": [
-                "About 400 CHF",
-                "About 4'000 CHF",
-                "About 40'000 CHF",
+                "About €400",
+                "About €4,000",
+                "About €40,000",
                 "Nothing until the mortgage matures"
               ],
               "answer": 1,
-              "explanation": "400'000 × 1% = 4'000 CHF a year. 'Nothing until maturity' applies to a fixed-rate mortgage, not a variable one."
+              "explanation": "400,000 × 1% = €4,000 a year. 'Nothing until maturity' applies to a fixed-rate mortgage, not a variable one."
             },
             {
               "question": "True or false: the central bank directly sets every interest rate in the economy.",
@@ -1807,17 +1807,17 @@
         },
         {
           "name": "Currency risk",
-          "subtitle": "Investing outside the franc",
+          "subtitle": "Investing outside the euro",
           "minutes": 6,
           "xp": 60,
           "cards": [
             {
               "title": "Investing abroad",
-              "body": "If you invest in assets priced in another currency, your return in CHF depends on both the asset and the exchange rate."
+              "body": "If you invest in assets priced in another currency, your return in euros depends on both the asset and the exchange rate."
             },
             {
               "title": "Two moves combine",
-              "body": "If a US share rises 10% in dollars but the dollar falls 10% against the franc, your CHF return is about −1%."
+              "body": "If a US share rises 10% in dollars but the dollar falls 10% against the euro, your euro return is about −1%."
             },
             {
               "title": "Hedging",
@@ -1826,7 +1826,7 @@
           ],
           "quiz": [
             {
-              "question": "A US share rises 10% in USD, while the dollar falls 10% against the franc. Your return in CHF is about…",
+              "question": "A US share rises 10% in USD, while the dollar falls 10% against the euro. Your return in euros is about…",
               "options": [
                 "0%",
                 "+10%",
@@ -1837,7 +1837,7 @@
               "explanation": "1.10 × 0.90 = 0.99, so about −1%. The two moves multiply rather than simply cancel."
             },
             {
-              "question": "A eurozone fund returns +5% in EUR while the euro falls 8% against the franc. Your return in CHF is roughly…",
+              "question": "A UK fund returns +5% in GBP while the pound falls 8% against the euro. Your return in euros is roughly…",
               "options": [
                 "+13%",
                 "About −3.4%",
@@ -1851,9 +1851,9 @@
               "question": "What does a currency-hedged share fund aim to do?",
               "options": [
                 "Remove the risk of the shares falling",
-                "Replace foreign shares with Swiss ones",
+                "Replace foreign shares with European ones",
                 "Reduce the impact of currency moves",
-                "Guarantee a profit measured in CHF"
+                "Guarantee a profit measured in euros"
               ],
               "answer": 2,
               "explanation": "Hedging targets currency moves only. If the shares fall, the hedged fund falls too."
@@ -1862,23 +1862,23 @@
               "question": "True or false: currency risk only matters if you travel abroad.",
               "options": [
                 "False, but only for crypto-assets and gold",
-                "True, because Swiss funds are always quoted in CHF",
-                "True, if you buy everything through a Swiss bank",
+                "True, because European funds are always quoted in euros",
+                "True, if you buy everything through a European bank",
                 "False — any foreign-currency asset is exposed"
               ],
               "answer": 3,
-              "explanation": "A fund quoted in CHF that holds US shares still carries dollar risk, unless it's hedged."
+              "explanation": "A fund quoted in euros that holds US shares still carries dollar risk, unless it's hedged."
             },
             {
               "question": "Which statement is FALSE?",
               "options": [
                 "Over short periods, currency moves can outweigh asset moves",
                 "Currency hedging usually has a cost",
-                "A stronger franc increases the CHF value of your foreign investments",
-                "A weaker foreign currency reduces CHF returns from that market"
+                "A stronger euro increases the euro value of your foreign investments",
+                "A weaker foreign currency reduces euro returns from that market"
               ],
               "answer": 2,
-              "explanation": "A stronger franc means each dollar or euro converts into fewer francs, which reduces the CHF value of foreign assets."
+              "explanation": "A stronger euro means each dollar or pound converts into fewer euros, which reduces the euro value of foreign assets."
             }
           ]
         },
@@ -2141,15 +2141,15 @@
           ],
           "quiz": [
             {
-              "question": "A promoter buys 1'000 CHF of a token at 0.10 CHF, hypes it, and sells everything at 0.30 CHF. What's his profit?",
+              "question": "A promoter buys €1,000 of a token at €0.10, hypes it, and sells everything at €0.30. What's his profit?",
               "options": [
-                "3'000 CHF",
-                "2'000 CHF",
-                "200 CHF",
-                "300 CHF"
+                "€3,000",
+                "€2,000",
+                "€200",
+                "€300"
               ],
               "answer": 1,
-              "explanation": "1'000 ÷ 0.10 = 10'000 tokens, sold for 3'000 CHF, minus the 1'000 CHF cost = 2'000 CHF. 3'000 CHF is the sale amount, not the profit. That profit comes from the followers who bought near the top."
+              "explanation": "1,000 ÷ 0.10 = 10,000 tokens, sold for €3,000, minus the €1,000 cost = €2,000. €3,000 is the sale amount, not the profit. That profit comes from the followers who bought near the top."
             },
             {
               "question": "Which asset is EASIEST to pump?",
@@ -2213,12 +2213,12 @@
             },
             {
               "title": "Check, don't trust",
-              "body": "Look for clear disclosures, check whether a firm is authorised by the regulator (FINMA in Switzerland), and be wary of anyone moving you to private chats."
+              "body": "Look for clear disclosures, check whether a firm is authorised by the regulator (e.g. CONSOB in Italy, AMF in France, BaFin in Germany), and be wary of anyone moving you to private chats."
             }
           ],
           "quiz": [
             {
-              "question": "An influencer posts screenshots of 5'000 CHF daily profits and sells a 'trading signals' subscription. What's the best interpretation?",
+              "question": "An influencer posts screenshots of €5,000 daily profits and sells a 'trading signals' subscription. What's the best interpretation?",
               "options": [
                 "Proof of nothing — subscriptions may be the business",
                 "The profits are real, since they're screenshots from the app",
@@ -2264,7 +2264,7 @@
             {
               "question": "Someone you met online shows you profits on a trading app. You deposit a small amount, which quickly shows big gains. When you try to withdraw, you're told to pay a 'tax' first. What's happening?",
               "options": [
-                "A legal Swiss tax on crypto gains",
+                "A legal EU tax on crypto gains",
                 "A temporary technical issue with the app",
                 "A scam — the gains and the 'tax' are fake",
                 "A normal withdrawal fee charged by platforms"
@@ -2306,15 +2306,15 @@
               "explanation": "High return plus zero risk is the classic combination behind scams. The other statements describe normal, honest risk disclosures."
             },
             {
-              "question": "A product promises 1% per day. If that were true, what would 1'000 CHF become after 30 days?",
+              "question": "A product promises 1% per day. If that were true, what would €1,000 become after 30 days?",
               "options": [
-                "About 3'000 CHF",
-                "About 1'350 CHF",
-                "About 1'300 CHF",
-                "About 1'030 CHF"
+                "About €3,000",
+                "About €1,350",
+                "About €1,300",
+                "About €1,030"
               ],
               "answer": 1,
-              "explanation": "1'000 × 1.01³⁰ ≈ 1'348 CHF. Over a year, 1% a day would multiply money about 38 times — no legitimate investment does that consistently."
+              "explanation": "1,000 × 1.01³⁰ ≈ €1,348. Over a year, 1% a day would multiply money about 38 times — no legitimate investment does that consistently."
             },
             {
               "question": "A seller says a product is 'capital-guaranteed'. What's the most important question to ask?",
@@ -2331,7 +2331,7 @@
               "question": "True or false: a 'guaranteed' product from a legitimate bank carries no risk at all.",
               "options": [
                 "False — it still depends on the issuer",
-                "True, because banks in Switzerland can't fail",
+                "True, because banks in the eurozone can't fail",
                 "True, as long as the guarantee is in writing",
                 "False, but only for crypto-related products"
               ],
@@ -2524,7 +2524,7 @@
             },
             {
               "title": "Who owns what",
-              "body": "The new investor's stake = investment ÷ post-money valuation. For example, 1M CHF into a 4M pre-money gives 1M ÷ 5M = 20%."
+              "body": "The new investor's stake = investment ÷ post-money valuation. For example, €1M into a 4M pre-money gives 1M ÷ 5M = 20%."
             },
             {
               "title": "A price, not a certainty",
@@ -2533,7 +2533,7 @@
           ],
           "quiz": [
             {
-              "question": "A startup raises 1M CHF at a 4M CHF pre-money valuation. What stake does the new investor get?",
+              "question": "A startup raises €1M at a €4M pre-money valuation. What stake does the new investor get?",
               "options": [
                 "10%",
                 "4%",
@@ -2544,12 +2544,12 @@
               "explanation": "Post-money = 4M + 1M = 5M, and 1M ÷ 5M = 20%. 25% wrongly divides by the pre-money valuation."
             },
             {
-              "question": "An investor pays 2M CHF for 10% of a startup. What are the post-money and pre-money valuations?",
+              "question": "An investor pays €2M for 10% of a startup. What are the post-money and pre-money valuations?",
               "options": [
-                "20M CHF post-money, 18M CHF pre-money",
-                "2M CHF post-money, 0 CHF pre-money",
-                "10M CHF post-money, 8M CHF pre-money",
-                "20M CHF pre-money, 22M CHF post-money"
+                "€20M post-money, €18M pre-money",
+                "€2M post-money, €0 pre-money",
+                "€10M post-money, €8M pre-money",
+                "€20M pre-money, €22M post-money"
               ],
               "answer": 0,
               "explanation": "2M ÷ 10% = 20M post-money; subtracting the new 2M gives 18M pre-money."
@@ -2566,7 +2566,7 @@
               "explanation": "Down rounds signal that expectations have fallen, and they usually dilute existing shareholders more heavily."
             },
             {
-              "question": "True or false: a startup valued at 50M CHF has 50M CHF in the bank.",
+              "question": "True or false: a startup valued at €50M has €50M in the bank.",
               "options": [
                 "True, right after a funding round",
                 "False, it always has more than that",
@@ -2577,7 +2577,7 @@
               "explanation": "A valuation reflects expectations about future value. The cash is only what investors actually put in, minus what's been spent."
             },
             {
-              "question": "Offer A invests 2M CHF at an 8M pre-money; offer B invests 2M CHF at a 6M pre-money. All else equal, which leaves the founders with more ownership?",
+              "question": "Offer A invests €2M at an 8M pre-money; offer B invests €2M at a 6M pre-money. All else equal, which leaves the founders with more ownership?",
               "options": [
                 "Offer A — the investor gets 20% instead of 25%",
                 "Offer B, because lower valuations favour founders",
@@ -2698,7 +2698,7 @@
               "explanation": "Building something people don't need is a classic failure. Launching early and imperfect is often a deliberate strategy to learn faster."
             },
             {
-              "question": "A startup has 600'000 CHF in the bank and spends 50'000 CHF more each month than it earns. What is its 'runway'?",
+              "question": "A startup has €600,000 in the bank and spends €50,000 more each month than it earns. What is its 'runway'?",
               "options": [
                 "12 months",
                 "50 months",
@@ -2706,7 +2706,7 @@
                 "6 months"
               ],
               "answer": 0,
-              "explanation": "600'000 ÷ 50'000 = 12 months before the cash runs out, unless it cuts costs, grows revenue or raises more money."
+              "explanation": "600,000 ÷ 50,000 = 12 months before the cash runs out, unless it cuts costs, grows revenue or raises more money."
             },
             {
               "question": "True or false: some famous founders dropped out of university and succeeded, so dropping out increases your chance of success.",
@@ -2764,7 +2764,7 @@
           ],
           "quiz": [
             {
-              "question": "A fund invests 1M CHF in each of 10 startups. Seven return nothing, two return 1M CHF each, and one returns 30M CHF. What multiple of its money does the fund make before fees?",
+              "question": "A fund invests €1M in each of 10 startups. Seven return nothing, two return €1M each, and one returns €30M. What multiple of its money does the fund make before fees?",
               "options": [
                 "2.0×",
                 "0.3×",

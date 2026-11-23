@@ -2051,8 +2051,8 @@ header[data-testid="stHeader"] { display:none !important; }
 .st-key-welcome { text-align:center; }
 .w-logo { width:60px; height:60px; margin:0 auto 14px; border-radius:18px; display:grid; place-items:center;
   font-size:30px; background:#16241b; border:1px solid #22382a; }
-.w-brand { color:#7fa88c; font-weight:800; font-size:22px; letter-spacing:.28em; padding-left:.28em; }
-.w-title { color:#e4ebe6; font-size:28px; font-weight:700; letter-spacing:-.02em; margin:14px 0 22px; }
+.w-brand { color:#7fa88c; font-weight:800; font-size:22px; letter-spacing:.28em; padding-left:.28em; text-align:center; }
+.w-title { color:#e4ebe6; font-size:28px; font-weight:700; letter-spacing:-.02em; margin:14px 0 22px; text-align:center; }
 .st-key-welcome [data-baseweb="input"] { background:#121614 !important; border:1px solid #1e2722 !important;
   border-radius:12px; min-height:3rem; }
 .st-key-welcome [data-baseweb="input"]:focus-within { border-color:#3f6b4f !important; box-shadow:none !important; }

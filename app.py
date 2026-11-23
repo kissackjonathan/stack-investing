@@ -444,13 +444,23 @@ def name_error(name):
     return None
 
 
+def supabase_conf():
+    """(url, key) from the [supabase] secrets, or (None, None) when there are no secrets."""
+    try:
+        conf = st.secrets.get("supabase") or {}
+        return conf.get("url"), conf.get("key")
+    except Exception:                         # no secrets.toml at all
+        return None, None
+
+
 @st.cache_resource
-def get_store():
-    """Supabase when the [supabase] secrets are set (online), else one JSON file per player in users/."""
-    return storage.get_store(st.secrets, USERS_DIR)
+def get_store(url, key, folder):
+    """Supabase when url + key are set (online), else one JSON file per player in `folder`.
+    Cached per (url, key): adding or changing the secrets takes effect without a reboot."""
+    return storage.get_store({"supabase": {"url": url, "key": key}} if url and key else None, folder)
 
 
-STORE = get_store()
+STORE = get_store(*supabase_conf(), str(USERS_DIR))
 
 
 def profile_exists(slug):

@@ -444,12 +444,18 @@ def name_error(name):
     return None
 
 
+SECRETS_STATUS = "not read"                    # diagnostic shown (hidden) on the welcome page
+
+
 def supabase_conf():
     """(url, key) from the [supabase] secrets, or (None, None) when there are no secrets."""
+    global SECRETS_STATUS
     try:
         conf = st.secrets.get("supabase") or {}
+        SECRETS_STATUS = f"sections={sorted(st.secrets.keys())} url={'yes' if conf.get('url') else 'no'} key={'yes' if conf.get('key') else 'no'}"
         return conf.get("url"), conf.get("key")
-    except Exception:                         # no secrets.toml at all
+    except Exception as exc:                  # no secrets.toml at all, or invalid TOML
+        SECRETS_STATUS = f"error {type(exc).__name__}: {str(exc)[:120]}"
         return None, None
 
 
@@ -2031,6 +2037,8 @@ def welcome_page():
             st.form_submit_button("Continue", type="primary", on_click=login_submit, width="stretch", key="login_go")
         if S.login_error:
             st.markdown(f'<div class="w-error">{esc(S.login_error)}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div id="stack-diag" style="display:none" data-store="{type(STORE).__name__}" '
+                f'data-secrets="{esc(SECRETS_STATUS)}"></div>', unsafe_allow_html=True)
 
 
 # Welcome screen only: flat black, soft dark green, nothing else on the page.
